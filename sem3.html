@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BSc CSIT Semester III | Notes & Past Year Questions - Toya Bsc CSIT</title>
+  <meta name="description" content="BSc CSIT Semester III notes and past year questions. CSC206, CSC207, CSC208, CSC209, STA210." />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="brand">
+        <span class="brand-icon">T</span>
+        <span>Toya Bsc CSIT</span>
+      </a>
+      <button class="mobile-menu-btn" aria-label="Open menu" aria-expanded="false">&#9776;</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#semesters">All Semesters</a></li>
+        <li><a href="#">Notes</a></li>
+        <li><a href="#">PYQs</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div class="container">
+      <div class="page-header">
+        <a href="index.html" class="back-link">&#8592; All Semesters</a>
+        <div class="sem-header">
+          <span class="sem-icon">📦</span>
+          <div class="sem-info">
+            <span class="sem-title">Semester III</span>
+            <span class="sem-count">5 Subjects</span>
+          </div>
+        </div>
+      </div>
+      <p class="hero-sub">2nd Year, 1st Semester &mdash; Subject-wise notes and previous year questions.</p>
+    </div>
+  </section>
+
+  <div class="container">
+    <div class="subject-grid">
+
+      <!-- CSC206 Data Structure and Algorithms -->
+      <a href="#dsa-notes" class="subject-card" data-sem="3" data-code="CSC206">
+        <div class="subject-header">
+          <span class="subject-name">Data Structure and Algorithms</span>
+          <span class="subject-code">CSC206</span>
+        </div>
+        <div class="subject-body">
+          <button class="subject-btn notes">&#128218; Notes</button>
+          <button class="subject-btn pyq">&#128202; Past Year Questions</button>
+        </div>
+      </a>
+      <a href="#dsa-pyq" class="subject-card" data-sem="3" data-code="CSC206" style="border-left:4px solid var(--warning);">
+        <div class="subject-header">
+          <span class="subject-name">DSA &mdash; PYQ</span>
+          <span class="subject-code">CSC206</span>
+        </div>
+        <div class="subject-body">
+          <button class="subject-btn pyq">&#128202; Past Year Questions</button>
+        </div>
+      </a>
+
+      <!-- CSC207 Numerical Method -->
+      <a href="#num-notes" class="subject-card" data-sem="3" data-code="CSC207">
+        <div class="subject-header">
+          <span class="subject-name">Numerical Method</span>
+          <span class="subject-code">CSC207</span>
+        </div>
+        <div class="subject-body">
+          <button class="subject-btn notes">&#128218; Notes</button>
+          <button class="subject-btn pyq">&#128202; Past Year Questions</button>
+        </div>
+      </a>
+      <a href="#num-pyq" class="subject-card" data-sem="3" data-code="CSC207" style="border-left:4px solid var(--warning);">
+        <div class="subject-header">
+          <span class="subject-name">Numerical Method &mdash; PYQ</span>
+          <span class="subject-code">CSC207</span>
+        </div>
+        <div class="subject-body">
+          <button class="subject-btn pyq">&#128202; Past Year Questions</button>
+        </div>
+      </a>
+
+      <!-- CSC208 Computer Architecture -->
+      <a href="#ca-notes" class="subject-card" data-sem="3" data-code="CSC208">
+        <div class="subject-header">
+          <span class="subject-name">Computer Architecture</span>
+          <span class="subject-code">CSC208</span>
+        </div>
+        <div class="subject-body">
+          <button class="subject-btn notes">&#128218; Notes</button>
+          <button class="subject-btn pyq">&#128202; Past Year Questions</button>
+        </div>
+      </a>
+      <a href="#ca-pyq" class="subject-card" data-sem="3" data-code="CSC208" style="border-left:4px solid var(--warning);">
+        <div class="subject-header">
+          <span class="subject-name">Computer Architecture &mdash; PYQ</span>
+          <span class="subject-code">CSC208</span>
+        </div>
+        <div class="subject-body">
+          <button class="subject-btn pyq">&#128202; Past Year Questions</button>
+        </div>
+      </a>
+
+      <!-- CSC209 Computer Graphics -->
+      <a href="#cg-notes" class="subject-card" data-sem="3" data-code="CSC209">
+        <div class="subject-header">
+          <span class="subject-name">Computer Graphics</span>
+          <span class="subject-code">CSC209</span>
+        </div>
+        <div class="subject-body">
+          <button class="subject-btn notes">&#128218; Notes</button>
+          <button class="subject-btn pyq">&#128202; Past Year Questions</button>
+        </div>
+      </a>
+      <a href="#cg-pyq" class="subject-card" data-sem="3" data-code="CSC209" style="border-left:4px solid var(--warning);">
+        <div class="subject-header">
+          <span class="subject-name">Computer Graphics &mdash; PYQ</span>
+          <span class="subject-code">CSC209</span>
+        </div>
+        <div class="subject-body">
+          <button class="subject-btn pyq">&#128202; Past Year Questions</button>
+        </div>
+      </a>
+
+      <!-- STA210 Statistics II -->
+      <a href="#stat2-notes" class="subject-card" data-sem="3" data-code="STA210">
+        <div class="subject-header">
+          <span class="subject-name">Statistics II</span>
+          <span class="subject-code">STA210</span>
+        </div>
+        <div class="subject-body">
+          <button class="subject-btn notes">&#128218; Notes</button>
+          <button class="subject-btn pyq">&#128202; Past Year Questions</button>
+        </div>
+      </a>
+      <a href="#stat2-pyq" class="subject-card" data-sem="3" data-code="STA210" style="border-left:4px solid var(--warning);">
+        <div class="subject-header">
+          <span class="subject-name">Statistics II &mdash; PYQ</span>
+          <span class="subject-code">STA210</span>
+        </div>
+        <div class="subject-body">
+          <button class="subject-btn pyq">&#128202; Past Year Questions</button>
+        </div>
+      </a>
+
+    </div>
+  </div>
+
+  <!-- Content Sections -->
+  <div class="container" >
+
+    <a id="dsa-notes"></a>
+    <div class="content-section">
+      <div class="content-header">
+        <a href="sem3.html" class="back-link">&#8592; Back to Semester III</a>
+        <h2>Data Structure and Algorithms &mdash; Notes</h2>
+      </div>
+      <div class="content-actions">
+        <button class="btn btn-download">&#128466; Download PDF</button>
+      </div>
+      <div class="content-body">
+        <p><strong>Data Structure and Algorithms (CSC206)</strong> teaches efficient data organization and problem solving.</p>
+        <div class="note-box">
+          <strong>Key Topics:</strong> Complexity analysis (Big O), arrays, linked lists, stacks, queues, trees, BST, AVL, graphs, sorting, searching, hashing, recursion, greedy, divide and conquer, dynamic programming.
+        </div>
+        <h3>Data Structures</h3>
+        <ul>
+          <li>Array: row/column major order, address calculation.</li>
+          <li>Linked List: singly, doubly, circular operations.</li>
+          <li>Stack: LIFO, push/pop, infix to postfix conversion.</li>
+          <li>Queue: FIFO, circular queue, priority queue.</li>
+          <li>Tree: traversals (in/pre/post), BST, AVL rotations.</li>
+          <li>Graph: BFS, DFS, Prim's, Kruskal's, Dijkstra's.</li>
+        </ul>
+      </div>
+    </div>
+
+    <a id="dsa-pyq"></a>
+    <div class="content-section">
+      <div class="content-header">
+        <a href="sem3.html" class="back-link">&#8592; Back to Semester III</a>
+        <h2>Data Structure and Algorithms &mdash; Past Year Questions</h2>
+      </div>
+      <div class="content-actions">
+        <button class="btn btn-download">&#128466; Download PYQ PDF</button>
+      </div>
+      <div class="content-body">
+        <div class="pyq-box">
+          <strong>Sample PYQs (CSC206):</strong>
+          <ol>
+            <li>What is linked list? Differentiate singly vs doubly. Algorithm to insert at end.</li>
+            <li>Explain stack applications. Convert A+B*C to postfix.</li>
+            <li>What is BST? Insert keys: 50,30,70,20,40,60,80.</li>
+            <li>Explain quick sort with complexities.</li>
+            <li>Explain BFS and DFS with examples.</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+
+    <a id="num-notes"></a>
+    <div class="content-section">
+      <div class="content-header">
+        <a href="sem3.html" class="back-link">&#8592; Back to Semester III</a>
+        <h2>Numerical Method &mdash; Notes</h2>
+      </div>
+      <div class="content-actions">
+        <button class="btn btn-download">&#128466; Download PDF</button>
+      </div>
+      <div class="content-body">
+        <p><strong>Numerical Method (CSC207)</strong> gives computational techniques for mathematical problems.</p>
+        <div class="note-box">
+          <strong>Key Topics:</strong> Errors in computation, nonlinear equations, interpolation, numerical differentiation/integration, linear systems, ODEs, curve fitting, least squares.
+        </div>
+        <h3>Methods</h3>
+        <ul>
+          <li>Root finding: bisection, regula-falsi, Newton-Raphson, secant.</li>
+          <li>Linear systems: Gauss elimination, Gauss-Jordan, LU, Gauss-Seidel, Jacobi.</li>
+          <li>Interpolation: Newton's divided difference, Lagrange, spline.</li>
+          <li>Integration: trapezoidal, Simpson's rules.</li>
+          <li>ODE: Euler, Runge-Kutta 4th order.</li>
+        </ul>
+      </div>
+    </div>
+
+    <a id="num-pyq"></a>
+    <div class="content-section">
+      <div class="content-header">
+        <a href="sem3.html" class="back-link">&#8592; Back to Semester III</a>
+        <h2>Numerical Method &mdash; Past Year Questions</h2>
+      </div>
+      <div class="content-actions">
+        <button class="btn btn-download">&#128466; Download PYQ PDF</button>
+      </div>
+      <div class="content-body">
+        <div class="pyq-box">
+          <strong>Sample PYQs (CSC207):</strong>
+          <ol>
+            <li>Find root of x<sup>3</sup> - x - 1 = 0 using Newton-Raphson.</li>
+            <li>Lagrange interpolation to find f(2).</li>
+            <li>Evaluate &int;<sub>0</sub><sup>1</sup> dx/(1+x<sup>2</sup>) using Simpson's 1/3.</li>
+            <li>Solve dy/dx = x+y using Euler's method h=0.1.</li>
+            <li>Solve linear system using Gauss elimination.</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+
+    <a id="ca-notes"></a>
+    <div class="content-section">
+      <div class="content-header">
+        <a href="sem3.html" class="back-link">&#8592; Back to Semester III</a>
+        <h2>Computer Architecture &mdash; Notes</h2>
+      </div>
+      <div class="content-actions">
+        <button class="btn btn-download">&#128466; Download PDF</button>
+      </div>
+      <div class="content-body">
+        <p><strong>Computer Architecture (CSC208)</strong> focuses on computer system structure and behavior.</p>
+        <div class="note-box">
+          <strong>Key Topics:</strong> Computer organization, CPU structure, instruction cycle, control unit, pipelining, memory hierarchy, cache, main/secondary storage, I/O, interrupts, DMA, parallel processing, RISC vs CISC.
+        </div>
+        <h3>Concepts</h3>
+        <ul>
+          <li>Von Neumann and Harvard architecture.</li>
+          <li>Instruction cycle: fetch, decode, execute, store.</li>
+          <li>Cache: mapping techniques, hit ratio, miss penalty.</li>
+          <li>Virtual memory: paging, segmentation, replacement (FIFO, LRU, OPT).</li>
+          <li>Pipelining hazards: structural, data, control.</li>
+        </ul>
+      </div>
+    </div>
+
+    <a id="ca-pyq"></a>
+    <div class="content-section">
+      <div class="content-header">
+        <a href="sem3.html" class="back-link">&#8592; Back to Semester III</a>
+        <h2>Computer Architecture &mdash; Past Year Questions</h2>
+      </div>
+      <div class="content-actions">
+        <button class="btn btn-download">&#128466; Download PYQ PDF</button>
+      </div>
+      <div class="content-body">
+        <div class="pyq-box">
+          <strong>Sample PYQs (CSC208):</strong>
+          <ol>
+            <li>Draw and explain Von Neumann architecture.</li>
+            <li>Explain cache mapping techniques with examples.</li>
+            <li>What is pipelining? Explain hazards and solutions.</li>
+            <li>Compare RISC and CISC.</li>
+            <li>Explain virtual memory with paging and replacement.</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+
+    <a id="cg-notes"></a>
+    <div class="content-section">
+      <div class="content-header">
+        <a href="sem3.html" class="back-link">&#8592; Back to Semester III</a>
+        <h2>Computer Graphics &mdash; Notes</h2>
+      </div>
+      <div class="content-actions">
+        <button class="btn btn-download">&#128466; Download PDF</button>
+      </div>
+      <div class="content-body">
+        <p><strong>Computer Graphics (CSC209)</strong> covers image generation, 2D/3D graphics and rendering.</p>
+        <div class="note-box">
+          <strong>Key Topics:</strong> Graphics primitives, line/circle algorithms, polygon filling, 2D/3D transformations, clipping, projections, hidden surface removal, shading, curves, animation.
+        </div>
+        <h3>2D Graphics</h3>
+        <ul>
+          <li>Line: DDA, Bresenham's algorithm.</li>
+          <li>Circle: midpoint circle algorithm.</li>
+          <li>Transformations: translation, rotation, scaling, reflection, shearing.</li>
+          <li>Clipping: Cohen-Sutherland, Liang-Barsky, Sutherland-Hodgman.</li>
+        </ul>
+        <h3>3D Graphics</h3>
+        <ul>
+          <li>Parallel and perspective projection.</li>
+          <li>Hidden surface: Z-buffer, painter's algorithm.</li>
+          <li>Shading: flat, Gouraud, Phong.</li>
+          <li>Curves: Bezier, B-splines.</li>
+        </ul>
+      </div>
+    </div>
+
+    <a id="cg-pyq"></a>
+    <div class="content-section">
+      <div class="content-header">
+        <a href="sem3.html" class="back-link">&#8592; Back to Semester III</a>
+        <h2>Computer Graphics &mdash; Past Year Questions</h2>
+      </div>
+      <div class="content-actions">
+        <button class="btn btn-download">&#128466; Download PYQ PDF</button>
+      </div>
+      <div class="content-body">
+        <div class="pyq-box">
+          <strong>Sample PYQs (CSC209):</strong>
+          <ol>
+            <li>Explain DDA and Bresenham's line algorithms.</li>
+            <li>Derive 2D rotation matrix about origin.</li>
+            <li>Explain Cohen-Sutherland line clipping.</li>
+            <li>Explain parallel and perspective projection.</li>
+            <li>What is hidden surface removal? Explain Z-buffer.</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+
+    <a id="stat2-notes"></a>
+    <div class="content-section">
+      <div class="content-header">
+        <a href="sem3.html" class="back-link">&#8592; Back to Semester III</a>
+        <h2>Statistics II &mdash; Notes</h2>
+      </div>
+      <div class="content-actions">
+        <button class="btn btn-download">&#128466; Download PDF</button>
+      </div>
+      <div class="content-body">
+        <p><strong>Statistics II (STA210)</strong> covers probability theory, distributions, estimation, and inferential statistics.</p>
+        <div class="note-box">
+          <strong>Key Topics:</strong> Probability axioms, conditional probability, Bayes' theorem, random variables, distributions (binomial, Poisson, normal), expectation, variance, sampling, estimation, hypothesis testing, chi-square, t-test, ANOVA.
+        </div>
+        <h3>Distributions</h3>
+        <ul>
+          <li>Binomial: mean np, variance npq.</li>
+          <li>Poisson: mean = variance = &lambda;.</li>
+          <li>Normal: standard normal, Z-score.</li>
+        </ul>
+      </div>
+    </div>
+
+    <a id="stat2-pyq"></a>
+    <div class="content-section">
+      <div class="content-header">
+        <a href="sem3.html" class="back-link">&#8592; Back to Semester III</a>
+        <h2>Statistics II &mdash; Past Year Questions</h2>
+      </div>
+      <div class="content-actions">
+        <button class="btn btn-download">&#128466; Download PYQ PDF</button>
+      </div>
+      <div class="content-body">
+        <div class="pyq-box">
+          <strong>Sample PYQs (STA210):</strong>
+          <ol>
+            <li>State and prove Bayes' theorem.</li>
+            <li>Random variable: discrete vs continuous.</li>
+            <li>Mean and variance of binomial distribution.</li>
+            <li>Normal distribution mean 50, SD 10. Find P(X&lt;60).</li>
+            <li>Test hypothesis population mean = 100 at 5% significance.</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <span class="footer-brand">Toya Bsc CSIT</span>
+          <p class="footer-desc">Free BSc CSIT notes and PYQs for Tribhuvan University students.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Semester III</h4>
+          <ul>
+            <li><a href="#dsa-notes">DSA</a></li>
+            <li><a href="#num-notes">Numerical Method</a></li>
+            <li><a href="#ca-notes">Computer Architecture</a></li>
+            <li><a href="#cg-notes">Computer Graphics</a></li>
+            <li><a href="#stat2-notes">Statistics II</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>More</h4>
+          <ul>
+            <li><a href="index.html">Back to Home</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="copyright">
+        &copy; <span id="year"></span> Toya Bsc CSIT. Educational purpose only.
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

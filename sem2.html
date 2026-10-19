@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BSc CSIT Semester II | Notes & Past Year Questions - Toya Bsc CSIT</title>
+  <meta name="description" content="BSc CSIT Semester II notes and past year questions. CSC160, CSC161, CSC162, MTH163, STA164." />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="brand">
+        <span class="brand-icon">T</span>
+        <span>Toya Bsc CSIT</span>
+      </a>
+      <button class="mobile-menu-btn" aria-label="Open menu" aria-expanded="false">&#9776;</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#semesters">All Semesters</a></li>
+        <li><a href="#">Notes</a></li>
+        <li><a href="#">PYQs</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div class="container">
+      <div class="page-header">
+        <a href="index.html" class="back-link">&#8592; All Semesters</a>
+        <div class="sem-header">
+          <span class="sem-icon">☁️</span>
+          <div class="sem-info">
+            <span class="sem-title">Semester II</span>
+            <span class="sem-count">5 Subjects</span>
+          </div>
+        </div>
+      </div>
+      <p class="hero-sub">1st Year, 2nd Semester &mdash; Subject-wise notes and previous year questions.</p>
+    </div>
+  </section>
+
+  <div class="container">
+    <div class="subject-grid">
+
+      <!-- CSC160 Discrete Structure -->
+      <a href="#discrete-notes" class="subject-card" data-sem="2" data-code="CSC160">
+        <div class="subject-header">
+          <span class="subject-name">Discrete Structure</span>
+          <span class="subject-code">CSC160</span>
+        </div>
+        <div class="subject-body">
+          <button class="subject-btn notes">&#128218; Notes</button>
+          <button class="subject-btn pyq">&#128202; Past Year Questions</button>
+        </div>
+      </a>
+      <a href="#discrete-pyq" class="subject-card" data-sem="2" data-code="CSC160" style="border-left:4px solid var(--warning);">
+        <div class="subject-header">
+          <span class="subject-name">Discrete Structure &mdash; PYQ</span>
+          <span class="subject-code">CSC160</span>
+        </div>
+        <div class="subject-body">
+          <button class="subject-btn pyq">&#128202; Past Year Questions</button>
+        </div>
+      </a>
+
+      <!-- CSC161 Object Oriented Programming -->
+      <a href="#oop-notes" class="subject-card" data-sem="2" data-code="CSC161">
+        <div class="subject-header">
+          <span class="subject-name">Object Oriented Programming</span>
+          <span class="subject-code">CSC161</span>
+        </div>
+        <div class="subject-body">
+          <button class="subject-btn notes">&#128218; Notes</button>
+          <button class="subject-btn pyq">&#128202; Past Year Questions</button>
+        </div>
+      </a>
+      <a href="#oop-pyq" class="subject-card" data-sem="2" data-code="CSC161" style="border-left:4px solid var(--warning);">
+        <div class="subject-header">
+          <span class="subject-name">OOP &mdash; PYQ</span>
+          <span class="subject-code">CSC161</span>
+        </div>
+        <div class="subject-body">
+          <button class="subject-btn pyq">&#128202; Past Year Questions</button>
+        </div>
+      </a>
+
+      <!-- CSC162 Microprocessor -->
+      <a href="#micro-notes" class="subject-card" data-sem="2" data-code="CSC162">
+        <div class="subject-header">
+          <span class="subject-name">Microprocessor</span>
+          <span class="subject-code">CSC162</span>
+        </div>
+        <div class="subject-body">
+          <button class="subject-btn notes">&#128218; Notes</button>
+          <button class="subject-btn pyq">&#128202; Past Year Questions</button>
+        </div>
+      </a>
+      <a href="#micro-pyq" class="subject-card" data-sem="2" data-code="CSC162" style="border-left:4px solid var(--warning);">
+        <div class="subject-header">
+          <span class="subject-name">Microprocessor &mdash; PYQ</span>
+          <span class="subject-code">CSC162</span>
+        </div>
+        <div class="subject-body">
+          <button class="subject-btn pyq">&#128202; Past Year Questions</button>
+        </div>
+      </a>
+
+      <!-- MTH163 Mathematics II -->
+      <a href="#math2-notes" class="subject-card" data-sem="2" data-code="MTH163">
+        <div class="subject-header">
+          <span class="subject-name">Mathematics II</span>
+          <span class="subject-code">MTH163</span>
+        </div>
+        <div class="subject-body">
+          <button class="subject-btn notes">&#128218; Notes</button>
+          <button class="subject-btn pyq">&#128202; Past Year Questions</button>
+        </div>
+      </a>
+      <a href="#math2-pyq" class="subject-card" data-sem="2" data-code="MTH163" style="border-left:4px solid var(--warning);">
+        <div class="subject-header">
+          <span class="subject-name">Mathematics II &mdash; PYQ</span>
+          <span class="subject-code">MTH163</span>
+        </div>
+        <div class="subject-body">
+          <button class="subject-btn pyq">&#128202; Past Year Questions</button>
+        </div>
+      </a>
+
+      <!-- STA164 Statistics I -->
+      <a href="#stat1-notes" class="subject-card" data-sem="2" data-code="STA164">
+        <div class="subject-header">
+          <span class="subject-name">Statistics I</span>
+          <span class="subject-code">STA164</span>
+        </div>
+        <div class="subject-body">
+          <button class="subject-btn notes">&#128218; Notes</button>
+          <button class="subject-btn pyq">&#128202; Past Year Questions</button>
+        </div>
+      </a>
+      <a href="#stat1-pyq" class="subject-card" data-sem="2" data-code="STA164" style="border-left:4px solid var(--warning);">
+        <div class="subject-header">
+          <span class="subject-name">Statistics I &mdash; PYQ</span>
+          <span class="subject-code">STA164</span>
+        </div>
+        <div class="subject-body">
+          <button class="subject-btn pyq">&#128202; Past Year Questions</button>
+        </div>
+      </a>
+
+    </div>
+  </div>
+
+  <!-- Content Sections -->
+  <div class="container" >
+
+    <a id="discrete-notes"></a>
+    <div class="content-section">
+      <div class="content-header">
+        <a href="sem2.html" class="back-link">&#8592; Back to Semester II</a>
+        <h2>Discrete Structure &mdash; Notes</h2>
+      </div>
+      <div class="content-actions">
+        <button class="btn btn-download">&#128466; Download PDF</button>
+      </div>
+      <div class="content-body">
+        <p><strong>Discrete Structure (CSC160)</strong> provides the mathematical foundation for computer science.</p>
+        <div class="note-box">
+          <strong>Key Topics:</strong> Propositional and predicate logic, set theory, relations and functions, mathematical induction, recurrence relations, combinatorics, graph theory, trees, algebraic structures.
+        </div>
+        <h3>Core Topics</h3>
+        <ul>
+          <li>Logical connectives, truth tables, tautology, contradiction, logical equivalence.</li>
+          <li>Set operations, Venn diagrams, Cartesian product, power set.</li>
+          <li>Relations: reflexive, symmetric, transitive, equivalence, partial order.</li>
+          <li>Functions: injective, surjective, bijective, inverse, composition.</li>
+          <li>Graph theory: vertex, edge, path, cycle, Euler and Hamiltonian paths.</li>
+        </ul>
+      </div>
+    </div>
+
+    <a id="discrete-pyq"></a>
+    <div class="content-section">
+      <div class="content-header">
+        <a href="sem2.html" class="back-link">&#8592; Back to Semester II</a>
+        <h2>Discrete Structure &mdash; Past Year Questions</h2>
+      </div>
+      <div class="content-actions">
+        <button class="btn btn-download">&#128466; Download PYQ PDF</button>
+      </div>
+      <div class="content-body">
+        <div class="pyq-box">
+          <strong>Sample PYQs (CSC160):</strong>
+          <ol>
+            <li>Prove by induction: if n is odd then n<sup>2</sup> is odd.</li>
+            <li>Define relation. Explain equivalence relation with example.</li>
+            <li>Find arrangements of letters in "COMPUTER".</li>
+            <li>Define graph. Differentiate directed vs undirected graph.</li>
+            <li>Prove De Morgan's laws for sets.</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+
+    <a id="oop-notes"></a>
+    <div class="content-section">
+      <div class="content-header">
+        <a href="sem2.html" class="back-link">&#8592; Back to Semester II</a>
+        <h2>Object Oriented Programming &mdash; Notes</h2>
+      </div>
+      <div class="content-actions">
+        <button class="btn btn-download">&#128466; Download PDF</button>
+      </div>
+      <div class="content-body">
+        <p><strong>Object Oriented Programming (CSC161)</strong> teaches OOP using C++.</p>
+        <div class="note-box">
+          <strong>Key Topics:</strong> Classes and objects, encapsulation, inheritance, polymorphism, abstraction, constructors/destructors, function/operator overloading, virtual functions, templates, exception handling, file handling.
+        </div>
+        <h3>OOP Pillars</h3>
+        <ul>
+          <li>Encapsulation: access specifiers (public, private, protected).</li>
+          <li>Inheritance: single, multiple, multilevel, hierarchical, hybrid.</li>
+          <li>Polymorphism: compile-time (overloading) and run-time (virtual/overriding).</li>
+          <li>Abstraction: abstract classes, pure virtual functions.</li>
+        </ul>
+      </div>
+    </div>
+
+    <a id="oop-pyq"></a>
+    <div class="content-section">
+      <div class="content-header">
+        <a href="sem2.html" class="back-link">&#8592; Back to Semester II</a>
+        <h2>Object Oriented Programming &mdash; Past Year Questions</h2>
+      </div>
+      <div class="content-actions">
+        <button class="btn btn-download">&#128466; Download PYQ PDF</button>
+      </div>
+      <div class="content-body">
+        <div class="pyq-box">
+          <strong>Sample PYQs (CSC161):</strong>
+          <ol>
+            <li>What is OOP? Explain its characteristics.</li>
+            <li>Explain inheritance in C++ with types.</li>
+            <li>What is a virtual function? Explain runtime polymorphism.</li>
+            <li>Write C++ program for operator overloading (complex number addition).</li>
+            <li>Explain exception handling in C++ (try, catch, throw).</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+
+    <a id="micro-notes"></a>
+    <div class="content-section">
+      <div class="content-header">
+        <a href="sem2.html" class="back-link">&#8592; Back to Semester II</a>
+        <h2>Microprocessor &mdash; Notes</h2>
+      </div>
+      <div class="content-actions">
+        <button class="btn btn-download">&#128466; Download PDF</button>
+      </div>
+      <div class="content-body">
+        <p><strong>Microprocessor (CSC162)</strong> covers microprocessor architecture, instruction sets, and assembly language.</p>
+        <div class="note-box">
+          <strong>Key Topics:</strong> 8085/8086 architecture, registers, flags, buses, instruction set, addressing modes, assembly language programming, interrupts, memory organization, I/O organization.
+        </div>
+        <h3>Architecture Highlights</h3>
+        <ul>
+          <li>8086: 16-bit, BIU and EU, segment registers (CS, DS, SS, ES), IP.</li>
+          <li>Addressing modes: immediate, direct, register, indirect, based indexed.</li>
+          <li>Interrupts: hardware vs software, maskable vs non-maskable.</li>
+          <li>Memory: RAM, ROM, cache, virtual memory.</li>
+        </ul>
+      </div>
+    </div>
+
+    <a id="micro-pyq"></a>
+    <div class="content-section">
+      <div class="content-header">
+        <a href="sem2.html" class="back-link">&#8592; Back to Semester II</a>
+        <h2>Microprocessor &mdash; Past Year Questions</h2>
+      </div>
+      <div class="content-actions">
+        <button class="btn btn-download">&#128466; Download PYQ PDF</button>
+      </div>
+      <div class="content-body">
+        <div class="pyq-box">
+          <strong>Sample PYQs (CSC162):</strong>
+          <ol>
+            <li>Draw and explain internal architecture of 8086.</li>
+            <li>Explain addressing modes of 8086 with examples.</li>
+            <li>Write assembly program to add two 16-bit numbers.</li>
+            <li>What is pipelining? Explain advantages.</li>
+            <li>Explain virtual memory and paging.</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+
+    <a id="math2-notes"></a>
+    <div class="content-section">
+      <div class="content-header">
+        <a href="sem2.html" class="back-link">&#8592; Back to Semester II</a>
+        <h2>Mathematics II &mdash; Notes</h2>
+      </div>
+      <div class="content-actions">
+        <button class="btn btn-download">&#128466; Download PDF</button>
+      </div>
+      <div class="content-body">
+        <p><strong>Mathematics II (MTH163)</strong> covers vectors, calculus of several variables, differential equations, Laplace and Fourier transforms.</p>
+        <div class="note-box">
+          <strong>Key Topics:</strong> Vectors, partial differentiation, multiple integrals, vector calculus (gradient, divergence, curl), ODEs, Laplace transform, Fourier series, complex numbers.
+        </div>
+        <h3>Formulas</h3>
+        <ul>
+          <li>Gradient: &nabla;f = (&partial;f/&partial;x, &partial;f/&partial;y, &partial;f/&partial;z).</li>
+          <li>Linear ODE: dy/dx + P(x)y = Q(x).</li>
+          <li>Laplace: L{f(t)} = &int;<sub>0</sub><sup>&infin;</sup> e<sup>-st</sup> f(t) dt.</li>
+        </ul>
+      </div>
+    </div>
+
+    <a id="math2-pyq"></a>
+    <div class="content-section">
+      <div class="content-header">
+        <a href="sem2.html" class="back-link">&#8592; Back to Semester II</a>
+        <h2>Mathematics II &mdash; Past Year Questions</h2>
+      </div>
+      <div class="content-actions">
+        <button class="btn btn-download">&#128466; Download PYQ PDF</button>
+      </div>
+      <div class="content-body">
+        <div class="pyq-box">
+          <strong>Sample PYQs (MTH163):</strong>
+          <ol>
+            <li>Find gradient, divergence, curl of F = (x<sup>2</sup>, y<sup>2</sup>, z<sup>2</sup>).</li>
+            <li>Solve dy/dx + y = e<sup>x</sup>.</li>
+            <li>Find Laplace transform of sin(at).</li>
+            <li>Evaluate double integral &int;&int; (x+y) dA.</li>
+            <li>Expand f(x)=x in Fourier series in (-&pi;, &pi;).</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+
+    <a id="stat1-notes"></a>
+    <div class="content-section">
+      <div class="content-header">
+        <a href="sem2.html" class="back-link">&#8592; Back to Semester II</a>
+        <h2>Statistics I &mdash; Notes</h2>
+      </div>
+      <div class="content-actions">
+        <button class="btn btn-download">&#128466; Download PDF</button>
+      </div>
+      <div class="content-body">
+        <p><strong>Statistics I (STA164)</strong> introduces statistical methods for data analysis.</p>
+        <div class="note-box">
+          <strong>Key Topics:</strong> Data classification, frequency distribution, central tendency, dispersion, skewness, kurtosis, correlation, regression, probability, probability distributions, sampling, hypothesis testing basics.
+        </div>
+        <h3>Formulas</h3>
+        <ul>
+          <li>Mean: &xbar; = &sum;x/n.</li>
+          <li>Variance: &sigma;<sup>2</sup> = &sum;(x-&xbar;)<sup>2</sup>/n.</li>
+          <li>Correlation coefficient r.</li>
+          <li>Regression: y = a + bx.</li>
+          <li>Binomial: P(x) = <sup>n</sup>C<sub>x</sub> p<sup>x</sup> q<sup>n-x</sup>.</li>
+        </ul>
+      </div>
+    </div>
+
+    <a id="stat1-pyq"></a>
+    <div class="content-section">
+      <div class="content-header">
+        <a href="sem2.html" class="back-link">&#8592; Back to Semester II</a>
+        <h2>Statistics I &mdash; Past Year Questions</h2>
+      </div>
+      <div class="content-actions">
+        <button class="btn btn-download">&#128466; Download PYQ PDF</button>
+      </div>
+      <div class="content-body">
+        <div class="pyq-box">
+          <strong>Sample PYQs (STA164):</strong>
+          <ol>
+            <li>Calculate mean, median, mode for frequency distribution.</li>
+            <li>Find standard deviation and coefficient of variation.</li>
+            <li>Compute Karl Pearson's correlation coefficient.</li>
+            <li>Fit regression line Y on X and estimate Y.</li>
+            <li>Bag has 5 red, 3 black balls. Two drawn. Probability both red.</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <span class="footer-brand">Toya Bsc CSIT</span>
+          <p class="footer-desc">Free BSc CSIT notes and PYQs for Tribhuvan University students.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Semester II</h4>
+          <ul>
+            <li><a href="#discrete-notes">Discrete Structure</a></li>
+            <li><a href="#oop-notes">Object Oriented Prog.</a></li>
+            <li><a href="#micro-notes">Microprocessor</a></li>
+            <li><a href="#math2-notes">Mathematics II</a></li>
+            <li><a href="#stat1-notes">Statistics I</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>More</h4>
+          <ul>
+            <li><a href="index.html">Back to Home</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="copyright">
+        &copy; <span id="year"></span> Toya Bsc CSIT. Educational purpose only.
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

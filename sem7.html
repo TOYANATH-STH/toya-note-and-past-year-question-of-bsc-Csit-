@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BSc CSIT Semester VII | Notes & Past Year Questions - Toya Bsc CSIT</title>
+  <meta name="description" content="BSc CSIT Semester VII notes and past year questions. CSC409, CSC410, MGT411, CSC412, Elective III." />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="brand">
+        <span class="brand-icon">T</span>
+        <span>Toya Bsc CSIT</span>
+      </a>
+      <button class="mobile-menu-btn" aria-label="Open menu" aria-expanded="false">&#9776;</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#semesters">All Semesters</a></li>
+        <li><a href="#">Notes</a></li>
+        <li><a href="#">PYQs</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div class="container">
+      <div class="page-header">
+        <a href="index.html" class="back-link">&#8592; All Semesters</a>
+        <div class="sem-header">
+          <span class="sem-icon">📱</span>
+          <div class="sem-info">
+            <span class="sem-title">Semester VII</span>
+            <span class="sem-count">5 Subjects</span>
+          </div>
+        </div>
+      </div>
+      <p class="hero-sub">4th Year, 1st Semester &mdash; Subject-wise notes and previous year questions.</p>
+    </div>
+  </section>
+
+  <div class="container">
+    <div class="subject-grid">
+
+      <!-- CSC409 Advanced Java Programming -->
+      <a href="#ajava-notes" class="subject-card" data-sem="7" data-code="CSC409">
+        <div class="subject-header">
+          <span class="subject-name">Advanced Java Programming</span>
+          <span class="subject-code">CSC409</span>
+        </div>
+        <div class="subject-body">
+          <button class="subject-btn notes">&#128218; Notes</button>
+          <button class="subject-btn pyq">&#128202; Past Year Questions</button>
+        </div>
+      </a>
+      <a href="#ajava-pyq" class="subject-card" data-sem="7" data-code="CSC409" style="border-left:4px solid var(--warning);">
+        <div class="subject-header">
+          <span class="subject-name">Advanced Java &mdash; PYQ</span>
+          <span class="subject-code">CSC409</span>
+        </div>
+        <div class="subject-body">
+          <button class="subject-btn pyq">&#128202; Past Year Questions</button>
+        </div>
+      </a>
+
+      <!-- CSC410 Data Warehousing and Data Mining -->
+      <a href="#dw-notes" class="subject-card" data-sem="7" data-code="CSC410">
+        <div class="subject-header">
+          <span class="subject-name">Data Warehousing and Data Mining</span>
+          <span class="subject-code">CSC410</span>
+        </div>
+        <div class="subject-body">
+          <button class="subject-btn notes">&#128218; Notes</button>
+          <button class="subject-btn pyq">&#128202; Past Year Questions</button>
+        </div>
+      </a>
+      <a href="#dw-pyq" class="subject-card" data-sem="7" data-code="CSC410" style="border-left:4px solid var(--warning);">
+        <div class="subject-header">
+          <span class="subject-name">DW &amp; DM &mdash; PYQ</span>
+          <span class="subject-code">CSC410</span>
+        </div>
+        <div class="subject-body">
+          <button class="subject-btn pyq">&#128202; Past Year Questions</button>
+        </div>
+      </a>
+
+      <!-- MGT411 Principles of Management -->
+      <a href="#mgmt-notes" class="subject-card" data-sem="7" data-code="MGT411">
+        <div class="subject-header">
+          <span class="subject-name">Principles of Management</span>
+          <span class="subject-code">MGT411</span>
+        </div>
+        <div class="subject-body">
+          <button class="subject-btn notes">&#128218; Notes</button>
+          <button class="subject-btn pyq">&#128202; Past Year Questions</button>
+        </div>
+      </a>
+      <a href="#mgmt-pyq" class="subject-card" data-sem="7" data-code="MGT411" style="border-left:4px solid var(--warning);">
+        <div class="subject-header">
+          <span class="subject-name">Principles of Management &mdash; PYQ</span>
+          <span class="subject-code">MGT411</span>
+        </div>
+        <div class="subject-body">
+          <button class="subject-btn pyq">&#128202; Past Year Questions</button>
+        </div>
+      </a>
+
+      <!-- CSC412 Project Work -->
+      <a href="#project-notes" class="subject-card" data-sem="7" data-code="CSC412">
+        <div class="subject-header">
+          <span class="subject-name">Project Work</span>
+          <span class="subject-code">CSC412</span>
+        </div>
+        <div class="subject-body">
+          <button class="subject-btn notes">&#128218; Notes</button>
+          <button class="subject-btn pyq">&#128202; Past Year Questions</button>
+        </div>
+      </a>
+      <a href="#project-pyq" class="subject-card" data-sem="7" data-code="CSC412" style="border-left:4px solid var(--warning);">
+        <div class="subject-header">
+          <span class="subject-name">Project Work &mdash; PYQ</span>
+          <span class="subject-code">CSC412</span>
+        </div>
+        <div class="subject-body">
+          <button class="subject-btn pyq">&#128202; Past Year Questions</button>
+        </div>
+      </a>
+
+      <!-- Elective III -->
+      <div class="subject-card" style="background:#f8fafc; cursor:default;">
+        <div class="subject-header">
+          <span class="subject-name">Elective III</span>
+          <span class="subject-code">CSC41x</span>
+        </div>
+        <div class="subject-body">
+          <p style="font-size:0.8rem; color:var(--muted); margin:0;">Choose one elective offered by your college</p>
+        </div>
+      </div>
+      <a href="#elec3-ir-notes" class="subject-card" data-sem="7" data-code="CSC413">
+        <div class="subject-header">
+          <span class="subject-name">Information Retrieval</span>
+          <span class="subject-code">CSC413</span>
+        </div>
+        <div class="subject-body">
+          <button class="subject-btn notes">&#128218; Notes</button>
+          <button class="subject-btn pyq">&#128202; Past Year Questions</button>
+        </div>
+      </a>
+      <a href="#elec3-dba-notes" class="subject-card" data-sem="7" data-code="CSC414">
+        <div class="subject-header">
+          <span class="subject-name">Database Administration</span>
+          <span class="subject-code">CSC414</span>
+        </div>
+        <div class="subject-body">
+          <button class="subject-btn notes">&#128218; Notes</button>
+          <button class="subject-btn pyq">&#128202; Past Year Questions</button>
+        </div>
+      </a>
+      <a href="#elec3-spm-notes" class="subject-card" data-sem="7" data-code="CSC415">
+        <div class="subject-header">
+          <span class="subject-name">Software Project Management</span>
+          <span class="subject-code">CSC415</span>
+        </div>
+        <div class="subject-body">
+          <button class="subject-btn notes">&#128218; Notes</button>
+          <button class="subject-btn pyq">&#128202; Past Year Questions</button>
+        </div>
+      </a>
+      <a href="#elec3-ns-notes" class="subject-card" data-sem="7" data-code="CSC416">
+        <div class="subject-header">
+          <span class="subject-name">Network Security</span>
+          <span class="subject-code">CSC416</span>
+        </div>
+        <div class="subject-body">
+          <button class="subject-btn notes">&#128218; Notes</button>
+          <button class="subject-btn pyq">&#128202; Past Year Questions</button>
+        </div>
+      </a>
+      <a href="#elec3-dsd-notes" class="subject-card" data-sem="7" data-code="CSC417">
+        <div class="subject-header">
+          <span class="subject-name">Digital System Design</span>
+          <span class="subject-code">CSC417</span>
+        </div>
+        <div class="subject-body">
+          <button class="subject-btn notes">&#128218; Notes</button>
+          <button class="subject-btn pyq">&#128202; Past Year Questions</button>
+        </div>
+      </a>
+      <a href="#elec3-im-notes" class="subject-card" data-sem="7" data-code="MGT418">
+        <div class="subject-header">
+          <span class="subject-name">International Marketing</span>
+          <span class="subject-code">MGT418</span>
+        </div>
+        <div class="subject-body">
+          <button class="subject-btn notes">&#128218; Notes</button>
+          <button class="subject-btn pyq">&#128202; Past Year Questions</button>
+        </div>
+      </a>
+
+    </div>
+  </div>
+
+  <!-- Content Sections -->
+  <div class="container" >
+
+    <a id="ajava-notes"></a>
+    <div class="content-section">
+      <div class="content-header">
+        <a href="sem7.html" class="back-link">&#8592; Back to Semester VII</a>
+        <h2>Advanced Java Programming &mdash; Notes</h2>
+      </div>
+      <div class="content-actions">
+        <button class="btn btn-download">&#128466; Download PDF</button>
+      </div>
+      <div class="content-body">
+        <p><strong>Advanced Java Programming (CSC409)</strong> covers advanced Java concepts and enterprise development.</p>
+        <div class="note-box">
+          <strong>Key Topics:</strong> JDBC, Servlets, JSP, JavaBeans, EJB basics, RMI, multithreading, collections framework, GUI (Swing/AWT), exception handling, file I/O, generics, lambda expressions.
+        </div>
+        <h3>Enterprise Java</h3>
+        <ul>
+          <li>JDBC: connecting to database, executing queries.</li>
+          <li>Servlets: lifecycle, doGet/doPost, session tracking.</li>
+          <li>JSP: directives, actions, implicit objects, JSTL.</li>
+          <li>Swing/AWT: components, event handling, layout managers.</li>
+        </ul>
+      </div>
+    </div>
+
+    <a id="ajava-pyq"></a>
+    <div class="content-section">
+      <div class="content-header">
+        <a href="sem7.html" class="back-link">&#8592; Back to Semester VII</a>
+        <h2>Advanced Java Programming &mdash; Past Year Questions</h2>
+      </div>
+      <div class="content-actions">
+        <button class="btn btn-download">&#128466; Download PYQ PDF</button>
+      </div>
+      <div class="content-body">
+        <div class="pyq-box">
+          <strong>Sample PYQs (CSC409):</strong>
+          <ol>
+            <li>What is JDBC? Explain steps to connect Java with database.</li>
+            <li>Explain servlet lifecycle with methods.</li>
+            <li>What is JSP? Explain JSP implicit objects.</li>
+            <li>Write a Java program demonstrating multithreading.</li>
+            <li>Explain exception handling in Java.</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+
+    <a id="dw-notes"></a>
+    <div class="content-section">
+      <div class="content-header">
+        <a href="sem7.html" class="back-link">&#8592; Back to Semester VII</a>
+        <h2>Data Warehousing and Data Mining &mdash; Notes</h2>
+      </div>
+      <div class="content-actions">
+        <button class="btn btn-download">&#128466; Download PDF</button>
+      </div>
+      <div class="content-body">
+        <p><strong>Data Warehousing and Data Mining (CSC410)</strong> covers data warehouses and mining techniques.</p>
+        <div class="note-box">
+          <strong>Key Topics:</strong> Data warehouse fundamentals, OLAP vs OLTP, data warehouse architecture, ETL, data mining process, classification, clustering, association rules, data preprocessing, evaluation.
+        </div>
+        <h3>Core Concepts</h3>
+        <ul>
+          <li>Data warehouse characteristics: subject-oriented, integrated, time-variant, non-volatile.</li>
+          <li>OLTP vs OLAP.</li>
+          <li>Data mining: classification (decision tree, Naive Bayes), clustering (K-means), association (Apriori).</li>
+          <li>Data preprocessing: cleaning, integration, transformation, reduction.</li>
+        </ul>
+      </div>
+    </div>
+
+    <a id="dw-pyq"></a>
+    <div class="content-section">
+      <div class="content-header">
+        <a href="sem7.html" class="back-link">&#8592; Back to Semester VII</a>
+        <h2>DW &amp; DM &mdash; Past Year Questions</h2>
+      </div>
+      <div class="content-actions">
+        <button class="btn btn-download">&#128466; Download PYQ PDF</button>
+      </div>
+      <div class="content-body">
+        <div class="pyq-box">
+          <strong>Sample PYQs (CSC410):</strong>
+          <ol>
+            <li>What is data warehousing? Explain its characteristics.</li>
+            <li>Differentiate OLTP and OLAP.</li>
+            <li>Explain data mining process (KDD).</li>
+            <li>Explain K-means clustering algorithm.</li>
+            <li>Explain Apriori algorithm for association rules.</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+
+    <a id="mgmt-notes"></a>
+    <div class="content-section">
+      <div class="content-header">
+        <a href="sem7.html" class="back-link">&#8592; Back to Semester VII</a>
+        <h2>Principles of Management &mdash; Notes</h2>
+      </div>
+      <div class="content-actions">
+        <button class="btn btn-download">&#128466; Download PDF</button>
+      </div>
+      <div class="content-body">
+        <p><strong>Principles of Management (MGT411)</strong> covers management theories and practices.</p>
+        <div class="note-box">
+          <strong>Key Topics:</strong> Management introduction, functions of management, planning, organizing, staffing, leading, controlling, motivation, leadership, communication, decision making, organizational behavior.
+        </div>
+        <h3>Functions</h3>
+        <ul>
+          <li>Planning: types, steps, importance.</li>
+          <li>Organizing: organization structure, delegation, centralization/decentralization.</li>
+          <li>Staffing: recruitment, selection, training.</li>
+          <li>Leading: motivation theories, leadership styles.</li>
+          <li>Controlling: control process, types of control.</li>
+        </ul>
+      </div>
+    </div>
+
+    <a id="mgmt-pyq"></a>
+    <div class="content-section">
+      <div class="content-header">
+        <a href="sem7.html" class="back-link">&#8592; Back to Semester VII</a>
+        <h2>Principles of Management &mdash; Past Year Questions</h2>
+      </div>
+      <div class="content-actions">
+        <button class="btn btn-download">&#128466; Download PYQ PDF</button>
+      </div>
+      <div class="content-body">
+        <div class="pyq-box">
+          <strong>Sample PYQs (MGT411):</strong>
+          <ol>
+            <li>What is management? Explain its functions.</li>
+            <li>Explain planning process and types of plans.</li>
+            <li>Explain Maslow's hierarchy of needs theory.</li>
+            <li>Differentiate between leadership and management.</li>
+            <li>Explain controlling process in management.</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+
+    <a id="project-notes"></a>
+    <div class="content-section">
+      <div class="content-header">
+        <a href="sem7.html" class="back-link">&#8592; Back to Semester VII</a>
+        <h2>Project Work &mdash; Notes</h2>
+      </div>
+      <div class="content-actions">
+        <button class="btn btn-download">&#128466; Download PDF</button>
+      </div>
+      <div class="content-body">
+        <p><strong>Project Work (CSC412)</strong> is the final-year project phase where students build a complete software system.</p>
+        <div class="note-box">
+          <strong>Key Topics:</strong> Problem identification, project proposal, literature review, feasibility, requirement analysis, system design, DFD/ER/UML diagrams, implementation, testing, documentation, presentation, viva.
+        </div>
+        <h3>Report Structure</h3>
+        <ul>
+          <li>Abstract, introduction, literature review.</li>
+          <li>System analysis and design.</li>
+          <li>Implementation, testing, results.</li>
+          <li>Conclusion, future work, references.</li>
+        </ul>
+      </div>
+    </div>
+
+    <a id="project-pyq"></a>
+    <div class="content-section">
+      <div class="content-header">
+        <a href="sem7.html" class="back-link">&#8592; Back to Semester VII</a>
+        <h2>Project Work &mdash; Past Year Questions</h2>
+      </div>
+      <div class="content-actions">
+        <button class="btn btn-download">&#128466; Download PYQ PDF</button>
+      </div>
+      <div class="content-body">
+        <div class="pyq-box">
+          <strong>Sample PYQs (CSC412):</strong>
+          <ol>
+            <li>What is a project proposal? Explain its contents.</li>
+            <li>Explain importance of literature survey in project work.</li>
+            <li>Draw DFD and ER diagram for your project.</li>
+            <li>What is a Gantt chart? How does it help project management?</li>
+            <li>Explain feasibility study types.</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+
+    <!-- Elective III sections -->
+    <a id="elec3-ir-notes"></a>
+    <div class="content-section">
+      <div class="content-header">
+        <a href="sem7.html" class="back-link">&#8592; Back to Semester VII</a>
+        <h2>Information Retrieval &mdash; Notes</h2>
+      </div>
+      <div class="content-actions">
+        <button class="btn btn-download">&#128466; Download PDF</button>
+      </div>
+      <div class="content-body">
+        <p><strong>Information Retrieval (CSC413)</strong> elective covers retrieving information from large repositories.</p>
+        <div class="note-box">
+          <strong>Key Topics:</strong> IR introduction, retrieval models, indexing, query processing, evaluation, web search, link analysis, recommender systems.
+        </div>
+      </div>
+    </div>
+
+    <a id="elec3-dba-notes"></a>
+    <div class="content-section">
+      <div class="content-header">
+        <a href="sem7.html" class="back-link">&#8592; Back to Semester VII</a>
+        <h2>Database Administration &mdash; Notes</h2>
+      </div>
+      <div class="content-actions">
+        <button class="btn btn-download">&#128466; Download PDF</button>
+      </div>
+      <div class="content-body">
+        <p><strong>Database Administration (CSC414)</strong> elective covers managing and maintaining databases.</p>
+        <div class="note-box">
+          <strong>Key Topics:</strong> DBA role, database architecture, installation/configuration, storage management, security, backup/recovery, performance tuning, monitoring.
+        </div>
+      </div>
+    </div>
+
+    <a id="elec3-spm-notes"></a>
+    <div class="content-section">
+      <div class="content-header">
+        <a href="sem7.html" class="back-link">&#8592; Back to Semester VII</a>
+        <h2>Software Project Management &mdash; Notes</h2>
+      </div>
+      <div class="content-actions">
+        <button class="btn btn-download">&#128466; Download PDF</button>
+      </div>
+      <div class="content-body">
+        <p><strong>Software Project Management (CSC415)</strong> elective covers managing software projects.</p>
+        <div class="note-box">
+          <strong>Key Topics:</strong> Project planning, scheduling, cost estimation, risk management, quality management, team management, project tracking, tools (MS Project, Jira).
+        </div>
+      </div>
+    </div>
+
+    <a id="elec3-ns-notes"></a>
+    <div class="content-section">
+      <div class="content-header">
+        <a href="sem7.html" class="back-link">&#8592; Back to Semester VII</a>
+        <h2>Network Security &mdash; Notes</h2>
+      </div>
+      <div class="content-actions">
+        <button class="btn btn-download">&#128466; Download PDF</button>
+      </div>
+      <div class="content-body">
+        <p><strong>Network Security (CSC416)</strong> elective covers securing computer networks.</p>
+        <div class="note-box">
+          <strong>Key Topics:</strong> Security services, attacks, cryptography, authentication, access control, firewalls, IDS/IPS, VPN, wireless security, email security, web security.
+        </div>
+      </div>
+    </div>
+
+    <a id="elec3-dsd-notes"></a>
+    <div class="content-section">
+      <div class="content-header">
+        <a href="sem7.html" class="back-link">&#8592; Back to Semester VII</a>
+        <h2>Digital System Design &mdash; Notes</h2>
+      </div>
+      <div class="content-actions">
+        <button class="btn btn-download">&#128466; Download PDF</button>
+      </div>
+      <div class="content-body">
+        <p><strong>Digital System Design (CSC417)</strong> elective covers designing digital systems.</p>
+        <div class="note-box">
+          <strong>Key Topics:</strong> Combinational/sequential logic design, FSM, VHDL/Verilog basics, FPGA, ASIC, memory design, arithmetic circuits.
+        </div>
+      </div>
+    </div>
+
+    <a id="elec3-im-notes"></a>
+    <div class="content-section">
+      <div class="content-header">
+        <a href="sem7.html" class="back-link">&#8592; Back to Semester VII</a>
+        <h2>International Marketing &mdash; Notes</h2>
+      </div>
+      <div class="content-actions">
+        <button class="btn btn-download">&#128466; Download PDF</button>
+      </div>
+      <div class="content-body">
+        <p><strong>International Marketing (MGT418)</strong> elective covers marketing across borders.</p>
+        <div class="note-box">
+          <strong>Key Topics:</strong> International marketing environment, entry modes, product/pricing/distribution/promotion globally, international marketing research, cultural factors.
+        </div>
+      </div>
+    </div>
+
+    <!-- Elective III PYQs -->
+    <a id="elec3-ir-pyq"></a>
+    <div class="content-section">
+      <div class="content-header">
+        <a href="sem7.html" class="back-link">&#8592; Back to Semester VII</a>
+        <h2>Information Retrieval &mdash; Past Year Questions</h2>
+      </div>
+      <div class="content-actions">
+        <button class="btn btn-download">&#128466; Download PYQ PDF</button>
+      </div>
+      <div class="content-body">
+        <div class="pyq-box">
+          <strong>Sample PYQs (CSC413):</strong>
+          <ol>
+            <li>What is information retrieval? Explain IR process.</li>
+            <li>Explain Boolean and vector space retrieval models.</li>
+            <li>What is indexing? Explain inverted index.</li>
+            <li>Explain precision and recall in IR evaluation.</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+
+    <a id="elec3-dba-pyq"></a>
+    <div class="content-section">
+      <div class="content-header">
+        <a href="sem7.html" class="back-link">&#8592; Back to Semester VII</a>
+        <h2>Database Administration &mdash; Past Year Questions</h2>
+      </div>
+      <div class="content-actions">
+        <button class="btn btn-download">&#128466; Download PYQ PDF</button>
+      </div>
+      <div class="content-body">
+        <div class="pyq-box">
+          <strong>Sample PYQs (CSC414):</strong>
+          <ol>
+            <li>What is a DBA? Explain roles and responsibilities.</li>
+            <li>Explain database security and authorization.</li>
+            <li>What is database backup and recovery?</li>
+            <li>Explain database performance tuning.</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+
+    <a id="elec3-spm-pyq"></a>
+    <div class="content-section">
+      <div class="content-header">
+        <a href="sem7.html" class="back-link">&#8592; Back to Semester VII</a>
+        <h2>Software Project Management &mdash; Past Year Questions</h2>
+      </div>
+      <div class="content-actions">
+        <button class="btn btn-download">&#128466; Download PYQ PDF</button>
+      </div>
+      <div class="content-body">
+        <div class="pyq-box">
+          <strong>Sample PYQs (CSC415):</strong>
+          <ol>
+            <li>What is software project management?</li>
+            <li>Explain cost estimation techniques (COCOMO).</li>
+            <li>Explain risk management process.</li>
+            <li>Explain software quality assurance activities.</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+
+    <a id="elec3-ns-pyq"></a>
+    <div class="content-section">
+      <div class="content-header">
+        <a href="sem7.html" class="back-link">&#8592; Back to Semester VII</a>
+        <h2>Network Security &mdash; Past Year Questions</h2>
+      </div>
+      <div class="content-actions">
+        <button class="btn btn-download">&#128466; Download PYQ PDF</button>
+      </div>
+      <div class="content-body">
+        <div class="pyq-box">
+          <strong>Sample PYQs (CSC416):</strong>
+          <ol>
+            <li>What is network security? Explain security services.</li>
+            <li>Explain types of network attacks.</li>
+            <li>What is a firewall? Explain types.</li>
+            <li>Explain VPN and its working.</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+
+    <a id="elec3-dsd-pyq"></a>
+    <div class="content-section">
+      <div class="content-header">
+        <a href="sem7.html" class="back-link">&#8592; Back to Semester VII</a>
+        <h2>Digital System Design &mdash; Past Year Questions</h2>
+      </div>
+      <div class="content-actions">
+        <button class="btn btn-download">&#128466; Download PYQ PDF</button>
+      </div>
+      <div class="content-body">
+        <div class="pyq-box">
+          <strong>Sample PYQs (CSC417):</strong>
+          <ol>
+            <li>Explain finite state machine design.</li>
+            <li>What is VHDL? Explain its use in digital design.</li>
+            <li>Explain FPGA architecture.</li>
+            <li>Design a 4-bit binary counter.</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+
+    <a id="elec3-im-pyq"></a>
+    <div class="content-section">
+      <div class="content-header">
+        <a href="sem7.html" class="back-link">&#8592; Back to Semester VII</a>
+        <h2>International Marketing &mdash; Past Year Questions</h2>
+      </div>
+      <div class="content-actions">
+        <button class="btn btn-download">&#128466; Download PYQ PDF</button>
+      </div>
+      <div class="content-body">
+        <div class="pyq-box">
+          <strong>Sample PYQs (MGT418):</strong>
+          <ol>
+            <li>What is international marketing? Explain its scope.</li>
+            <li>Explain modes of entry into international markets.</li>
+            <li>Explain international product and pricing strategies.</li>
+            <li>What are cultural factors in international marketing?</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <span class="footer-brand">Toya Bsc CSIT</span>
+          <p class="footer-desc">Free BSc CSIT notes and PYQs for Tribhuvan University students.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Semester VII</h4>
+          <ul>
+            <li><a href="#ajava-notes">Advanced Java</a></li>
+            <li><a href="#dw-notes">DW &amp; DM</a></li>
+            <li><a href="#mgmt-notes">Principles of Management</a></li>
+            <li><a href="#project-notes">Project Work</a></li>
+            <li><a href="#elec3-ir-notes">Elective III</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>More</h4>
+          <ul>
+            <li><a href="index.html">Back to Home</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="copyright">
+        &copy; <span id="year"></span> Toya Bsc CSIT. Educational purpose only.
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

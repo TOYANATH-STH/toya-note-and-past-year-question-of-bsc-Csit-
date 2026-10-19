@@ -1,0 +1,84 @@
+{
+  "1": {
+    "CSC109": { "notes": "#", "pyq": "#" },
+    "CSC110": { "notes": "#", "pyq": "#" },
+    "CSC111": { "notes": "#", "pyq": "#" },
+    "MTH112": { "notes": "#", "pyq": "#" },
+    "PHY113": { "notes": "#", "pyq": "#" }
+  },
+  "2": {
+    "CSC160": { "notes": "#", "pyq": "#" },
+    "CSC161": { "notes": "#", "pyq": "#" },
+    "CSC162": { "notes": "#", "pyq": "#" },
+    "MTH163": { "notes": "#", "pyq": "#" },
+    "STA164": { "notes": "#", "pyq": "#" }
+  },
+  "3": {
+    "CSC206": { "notes": "#", "pyq": "#" },
+    "CSC207": { "notes": "#", "pyq": "#" },
+    "CSC208": { "notes": "#", "pyq": "#" },
+    "CSC209": { "notes": "#", "pyq": "#" },
+    "STA210": { "notes": "#", "pyq": "#" }
+  },
+  "4": {
+    "CSC257": { "notes": "#", "pyq": "#" },
+    "CSC258": { "notes": "#", "pyq": "#" },
+    "CSC259": { "notes": "#", "pyq": "#" },
+    "CSC260": { "notes": "#", "pyq": "#" },
+    "CSC261": { "notes": "#", "pyq": "#" }
+  },
+  "5": {
+    "CSC314": { "notes": "#", "pyq": "#" },
+    "CSC315": { "notes": "#", "pyq": "#" },
+    "CSC316": { "notes": "#", "pyq": "#" },
+    "CSC317": { "notes": "#", "pyq": "#" },
+    "CSC318": { "notes": "#", "pyq": "#" },
+    "CSC319": { "notes": "#", "pyq": "#" },
+    "CSC320": { "notes": "#", "pyq": "#" },
+    "CSC321": { "notes": "#", "pyq": "#" },
+    "CSC322": { "notes": "#", "pyq": "#" },
+    "CSC323": { "notes": "#", "pyq": "#" },
+    "CSC324": { "notes": "#", "pyq": "#" }
+  },
+  "6": {
+    "CSC364": { "notes": "#", "pyq": "#" },
+    "CSC365": { "notes": "#", "pyq": "#" },
+    "CSC366": { "notes": "#", "pyq": "#" },
+    "CSC367": { "notes": "#", "pyq": "#" },
+    "CSC368": { "notes": "#", "pyq": "#" },
+    "CSC369": { "notes": "#", "pyq": "#" },
+    "CSC370": { "notes": "#", "pyq": "#" },
+    "CSC371": { "notes": "#", "pyq": "#" },
+    "CSC372": { "notes": "#", "pyq": "#" },
+    "CSC373": { "notes": "#", "pyq": "#" },
+    "CSC374": { "notes": "#", "pyq": "#" }
+  },
+  "7": {
+    "CSC409": { "notes": "#", "pyq": "#" },
+    "CSC410": { "notes": "#", "pyq": "#" },
+    "MGT411": { "notes": "#", "pyq": "#" },
+    "CSC412": { "notes": "#", "pyq": "#" },
+    "CSC413": { "notes": "#", "pyq": "#" },
+    "CSC414": { "notes": "#", "pyq": "#" },
+    "CSC415": { "notes": "#", "pyq": "#" },
+    "CSC416": { "notes": "#", "pyq": "#" },
+    "CSC417": { "notes": "#", "pyq": "#" },
+    "MGT418": { "notes": "#", "pyq": "#" }
+  },
+  "8": {
+    "CSC461": { "notes": "#", "pyq": "#" },
+    "CSC462": { "notes": "#", "pyq": "#" },
+    "CSC463": { "notes": "#", "pyq": "#" },
+    "CSC464": { "notes": "#", "pyq": "#" },
+    "CSC465": { "notes": "#", "pyq": "#" },
+    "CSC466": { "notes": "#", "pyq": "#" },
+    "CSC467": { "notes": "#", "pyq": "#" },
+    "CSC468": { "notes": "#", "pyq": "#" },
+    "CSC469": { "notes": "#", "pyq": "#" },
+    "CSC470": { "notes": "#", "pyq": "#" },
+    "CSC471": { "notes": "#", "pyq": "#" },
+    "CSC472": { "notes": "#", "pyq": "#" },
+    "CSC473": { "notes": "#", "pyq": "#" },
+    "MGT474": { "notes": "#", "pyq": "#" }
+  }
+}

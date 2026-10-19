@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BSc CSIT Semester IV | Notes & Past Year Questions - Toya Bsc CSIT</title>
+  <meta name="description" content="BSc CSIT Semester IV notes and past year questions. CSC257, CSC258, CSC259, CSC260, CSC261." />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="brand">
+        <span class="brand-icon">T</span>
+        <span>Toya Bsc CSIT</span>
+      </a>
+      <button class="mobile-menu-btn" aria-label="Open menu" aria-expanded="false">&#9776;</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#semesters">All Semesters</a></li>
+        <li><a href="#">Notes</a></li>
+        <li><a href="#">PYQs</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div class="container">
+      <div class="page-header">
+        <a href="index.html" class="back-link">&#8592; All Semesters</a>
+        <div class="sem-header">
+          <span class="sem-icon">⚙️</span>
+          <div class="sem-info">
+            <span class="sem-title">Semester IV</span>
+            <span class="sem-count">5 Subjects</span>
+          </div>
+        </div>
+      </div>
+      <p class="hero-sub">2nd Year, 2nd Semester &mdash; Subject-wise notes and previous year questions.</p>
+    </div>
+  </section>
+
+  <div class="container">
+    <div class="subject-grid">
+
+      <!-- CSC257 Theory of Computation -->
+      <a href="#toc-notes" class="subject-card" data-sem="4" data-code="CSC257">
+        <div class="subject-header">
+          <span class="subject-name">Theory of Computation</span>
+          <span class="subject-code">CSC257</span>
+        </div>
+        <div class="subject-body">
+          <button class="subject-btn notes">&#128218; Notes</button>
+          <button class="subject-btn pyq">&#128202; Past Year Questions</button>
+        </div>
+      </a>
+      <a href="#toc-pyq" class="subject-card" data-sem="4" data-code="CSC257" style="border-left:4px solid var(--warning);">
+        <div class="subject-header">
+          <span class="subject-name">Theory of Computation &mdash; PYQ</span>
+          <span class="subject-code">CSC257</span>
+        </div>
+        <div class="subject-body">
+          <button class="subject-btn pyq">&#128202; Past Year Questions</button>
+        </div>
+      </a>
+
+      <!-- CSC258 Computer Networks -->
+      <a href="#cn-notes" class="subject-card" data-sem="4" data-code="CSC258">
+        <div class="subject-header">
+          <span class="subject-name">Computer Networks</span>
+          <span class="subject-code">CSC258</span>
+        </div>
+        <div class="subject-body">
+          <button class="subject-btn notes">&#128218; Notes</button>
+          <button class="subject-btn pyq">&#128202; Past Year Questions</button>
+        </div>
+      </a>
+      <a href="#cn-pyq" class="subject-card" data-sem="4" data-code="CSC258" style="border-left:4px solid var(--warning);">
+        <div class="subject-header">
+          <span class="subject-name">Computer Networks &mdash; PYQ</span>
+          <span class="subject-code">CSC258</span>
+        </div>
+        <div class="subject-body">
+          <button class="subject-btn pyq">&#128202; Past Year Questions</button>
+        </div>
+      </a>
+
+      <!-- CSC259 Operating Systems -->
+      <a href="#os-notes" class="subject-card" data-sem="4" data-code="CSC259">
+        <div class="subject-header">
+          <span class="subject-name">Operating Systems</span>
+          <span class="subject-code">CSC259</span>
+        </div>
+        <div class="subject-body">
+          <button class="subject-btn notes">&#128218; Notes</button>
+          <button class="subject-btn pyq">&#128202; Past Year Questions</button>
+        </div>
+      </a>
+      <a href="#os-pyq" class="subject-card" data-sem="4" data-code="CSC259" style="border-left:4px solid var(--warning);">
+        <div class="subject-header">
+          <span class="subject-name">Operating Systems &mdash; PYQ</span>
+          <span class="subject-code">CSC259</span>
+        </div>
+        <div class="subject-body">
+          <button class="subject-btn pyq">&#128202; Past Year Questions</button>
+        </div>
+      </a>
+
+      <!-- CSC260 DBMS -->
+      <a href="#dbms-notes" class="subject-card" data-sem="4" data-code="CSC260">
+        <div class="subject-header">
+          <span class="subject-name">Database Management System</span>
+          <span class="subject-code">CSC260</span>
+        </div>
+        <div class="subject-body">
+          <button class="subject-btn notes">&#128218; Notes</button>
+          <button class="subject-btn pyq">&#128202; Past Year Questions</button>
+        </div>
+      </a>
+      <a href="#dbms-pyq" class="subject-card" data-sem="4" data-code="CSC260" style="border-left:4px solid var(--warning);">
+        <div class="subject-header">
+          <span class="subject-name">DBMS &mdash; PYQ</span>
+          <span class="subject-code">CSC260</span>
+        </div>
+        <div class="subject-body">
+          <button class="subject-btn pyq">&#128202; Past Year Questions</button>
+        </div>
+      </a>
+
+      <!-- CSC261 Artificial Intelligence -->
+      <a href="#ai-notes" class="subject-card" data-sem="4" data-code="CSC261">
+        <div class="subject-header">
+          <span class="subject-name">Artificial Intelligence</span>
+          <span class="subject-code">CSC261</span>
+        </div>
+        <div class="subject-body">
+          <button class="subject-btn notes">&#128218; Notes</button>
+          <button class="subject-btn pyq">&#128202; Past Year Questions</button>
+        </div>
+      </a>
+      <a href="#ai-pyq" class="subject-card" data-sem="4" data-code="CSC261" style="border-left:4px solid var(--warning);">
+        <div class="subject-header">
+          <span class="subject-name">Artificial Intelligence &mdash; PYQ</span>
+          <span class="subject-code">CSC261</span>
+        </div>
+        <div class="subject-body">
+          <button class="subject-btn pyq">&#128202; Past Year Questions</button>
+        </div>
+      </a>
+
+    </div>
+  </div>
+
+  <!-- Content Sections -->
+  <div class="container" >
+
+    <a id="toc-notes"></a>
+    <div class="content-section">
+      <div class="content-header">
+        <a href="sem4.html" class="back-link">&#8592; Back to Semester IV</a>
+        <h2>Theory of Computation &mdash; Notes</h2>
+      </div>
+      <div class="content-actions">
+        <button class="btn btn-download">&#128466; Download PDF</button>
+      </div>
+      <div class="content-body">
+        <p><strong>Theory of Computation (CSC257)</strong> studies abstract machines and computational problems.</p>
+        <div class="note-box">
+          <strong>Key Topics:</strong> Automata theory, finite automata, regular expressions, context-free grammars, pushdown automata, Turing machines, decidability, complexity classes (P, NP).
+        </div>
+        <h3>Core Concepts</h3>
+        <ul>
+          <li>DFA, NFA, NFA with epsilon transitions.</li>
+          <li>Regular expressions and regular languages.</li>
+          <li>Context-free grammar, Chomsky normal form.</li>
+          <li>Pushdown automata, Turing machine variants.</li>
+          <li>Halting problem, P vs NP.</li>
+        </ul>
+      </div>
+    </div>
+
+    <a id="toc-pyq"></a>
+    <div class="content-section">
+      <div class="content-header">
+        <a href="sem4.html" class="back-link">&#8592; Back to Semester IV</a>
+        <h2>Theory of Computation &mdash; Past Year Questions</h2>
+      </div>
+      <div class="content-actions">
+        <button class="btn btn-download">&#128466; Download PYQ PDF</button>
+      </div>
+      <div class="content-body">
+        <div class="pyq-box">
+          <strong>Sample PYQs (CSC257):</strong>
+          <ol>
+            <li>What is automata theory? Explain DFA and NFA.</li>
+            <li>Convert NFA to DFA with example.</li>
+            <li>Write regular expression for given language.</li>
+            <li>Explain context-free grammar and Chomsky hierarchy.</li>
+            <li>What is a Turing machine? Explain with example.</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+
+    <a id="cn-notes"></a>
+    <div class="content-section">
+      <div class="content-header">
+        <a href="sem4.html" class="back-link">&#8592; Back to Semester IV</a>
+        <h2>Computer Networks &mdash; Notes</h2>
+      </div>
+      <div class="content-actions">
+        <button class="btn btn-download">&#128466; Download PDF</button>
+      </div>
+      <div class="content-body">
+        <p><strong>Computer Networks (CSC258)</strong> covers network architecture, protocols, and data communication.</p>
+        <div class="note-box">
+          <strong>Key Topics:</strong> OSI and TCP/IP models, network devices, IP addressing, subnetting, routing, TCP/UDP, HTTP, FTP, SMTP, DNS, DHCP, wireless networks, network security basics.
+        </div>
+        <h3>Network Models</h3>
+        <ul>
+          <li>OSI 7 layers: physical, data link, network, transport, session, presentation, application.</li>
+          <li>TCP/IP 4 layers.</li>
+          <li>IPv4 addressing, subnetting, CIDR.</li>
+          <li>Routing protocols: RIP, OSPF, BGP basics.</li>
+        </ul>
+        <h3>Protocols</h3>
+        <ul>
+          <li>TCP: three-way handshake, flow control, congestion control.</li>
+          <li>UDP: connectionless, applications.</li>
+          <li>HTTP, FTP, SMTP, DNS, DHCP, SNMP.</li>
+        </ul>
+      </div>
+    </div>
+
+    <a id="cn-pyq"></a>
+    <div class="content-section">
+      <div class="content-header">
+        <a href="sem4.html" class="back-link">&#8592; Back to Semester IV</a>
+        <h2>Computer Networks &mdash; Past Year Questions</h2>
+      </div>
+      <div class="content-actions">
+        <button class="btn btn-download">&#128466; Download PYQ PDF</button>
+      </div>
+      <div class="content-body">
+        <div class="pyq-box">
+          <strong>Sample PYQs (CSC258):</strong>
+          <ol>
+            <li>Compare OSI and TCP/IP models.</li>
+            <li>Explain IP addressing and subnetting with example.</li>
+            <li>Explain TCP three-way handshake.</li>
+            <li>Differentiate TCP and UDP.</li>
+            <li>Explain DNS working with example.</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+
+    <a id="os-notes"></a>
+    <div class="content-section">
+      <div class="content-header">
+        <a href="sem4.html" class="back-link">&#8592; Back to Semester IV</a>
+        <h2>Operating Systems &mdash; Notes</h2>
+      </div>
+      <div class="content-actions">
+        <button class="btn btn-download">&#128466; Download PDF</button>
+      </div>
+      <div class="content-body">
+        <p><strong>Operating Systems (CSC259)</strong> studies OS design: process, memory, file, device management.</p>
+        <div class="note-box">
+          <strong>Key Topics:</strong> OS structure/services, process management, synchronization, CPU scheduling, deadlocks, memory management, virtual memory, file system, disk management, I/O, protection/security, case studies (Windows, Linux).
+        </div>
+        <h3>Scheduling</h3>
+        <ul>
+          <li>FCFS, SJF, SRTF, priority, round robin.</li>
+          <li>Metrics: turnaround, waiting, response time, throughput.</li>
+        </ul>
+        <h3>Memory</h3>
+        <ul>
+          <li>Paging, segmentation, page replacement (FIFO, LRU, optimal).</li>
+          <li>Thrashing, working set.</li>
+        </ul>
+      </div>
+    </div>
+
+    <a id="os-pyq"></a>
+    <div class="content-section">
+      <div class="content-header">
+        <a href="sem4.html" class="back-link">&#8592; Back to Semester IV</a>
+        <h2>Operating Systems &mdash; Past Year Questions</h2>
+      </div>
+      <div class="content-actions">
+        <button class="btn btn-download">&#128466; Download PYQ PDF</button>
+      </div>
+      <div class="content-body">
+        <div class="pyq-box">
+          <strong>Sample PYQs (CSC259):</strong>
+          <ol>
+            <li>What is OS? Explain functions and services.</li>
+            <li>Explain CPU scheduling with Gantt chart (FCFS, SJF, RR).</li>
+            <li>What is deadlock? Conditions and prevention/avoidance.</li>
+            <li>Explain paging and segmentation.</li>
+            <li>Explain LRU and FIFO page replacement.</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+
+    <a id="dbms-notes"></a>
+    <div class="content-section">
+      <div class="content-header">
+        <a href="sem4.html" class="back-link">&#8592; Back to Semester IV</a>
+        <h2>Database Management System &mdash; Notes</h2>
+      </div>
+      <div class="content-actions">
+        <button class="btn btn-download">&#128466; Download PDF</button>
+      </div>
+      <div class="content-body">
+        <p><strong>DBMS (CSC260)</strong> covers database design, relational model, SQL, normalization, transactions.</p>
+        <div class="note-box">
+          <strong>Key Topics:</strong> DBMS architecture, ER model, relational model, relational algebra, SQL (DDL, DML, DCL, TCL), joins, subqueries, views, indexes, normalization (1NF- BCNF), functional dependencies, transactions, ACID, concurrency, recovery.
+        </div>
+        <h3>SQL</h3>
+        <ul>
+          <li>DDL: CREATE, ALTER, DROP, TRUNCATE.</li>
+          <li>DML: SELECT, INSERT, UPDATE, DELETE.</li>
+          <li>Joins: inner, left, right, full, self, cross.</li>
+        </ul>
+        <h3>Normalization</h3>
+        <ul>
+          <li>1NF, 2NF, 3NF, BCNF with examples.</li>
+        </ul>
+      </div>
+    </div>
+
+    <a id="dbms-pyq"></a>
+    <div class="content-section">
+      <div class="content-header">
+        <a href="sem4.html" class="back-link">&#8592; Back to Semester IV</a>
+        <h2>DBMS &mdash; Past Year Questions</h2>
+      </div>
+      <div class="content-actions">
+        <button class="btn btn-download">&#128466; Download PYQ PDF</button>
+      </div>
+      <div class="content-body">
+        <div class="pyq-box">
+          <strong>Sample PYQs (CSC260):</strong>
+          <ol>
+            <li>Explain three-schema architecture of DBMS.</li>
+            <li>Draw ER diagram for hospital management system.</li>
+            <li>Write SQL queries: CREATE, SELECT with JOIN, GROUP BY.</li>
+            <li>What is normalization? Explain 1NF, 2NF, 3NF.</li>
+            <li>Explain ACID properties.</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+
+    <a id="ai-notes"></a>
+    <div class="content-section">
+      <div class="content-header">
+        <a href="sem4.html" class="back-link">&#8592; Back to Semester IV</a>
+        <h2>Artificial Intelligence &mdash; Notes</h2>
+      </div>
+      <div class="content-actions">
+        <button class="btn btn-download">&#128466; Download PDF</button>
+      </div>
+      <div class="content-body">
+        <p><strong>Artificial Intelligence (CSC261)</strong> introduces intelligent agents, search, knowledge representation, reasoning.</p>
+        <div class="note-box">
+          <strong>Key Topics:</strong> AI introduction, intelligent agents, problem solving, uninformed/informed search, heuristic search, knowledge representation, propositional/predicate logic, reasoning, uncertainty, expert systems, ML basics, neural networks, NLP basics.
+        </div>
+        <h3>Search</h3>
+        <ul>
+          <li>Uninformed: BFS, DFS, uniform cost, depth-limited, iterative deepening.</li>
+          <li>Informed: greedy best-first, A*, hill climbing, simulated annealing.</li>
+          <li>Game: minimax, alpha-beta pruning.</li>
+        </ul>
+      </div>
+    </div>
+
+    <a id="ai-pyq"></a>
+    <div class="content-section">
+      <div class="content-header">
+        <a href="sem4.html" class="back-link">&#8592; Back to Semester IV</a>
+        <h2>Artificial Intelligence &mdash; Past Year Questions</h2>
+      </div>
+      <div class="content-actions">
+        <button class="btn btn-download">&#128466; Download PYQ PDF</button>
+      </div>
+      <div class="content-body">
+        <div class="pyq-box">
+          <strong>Sample PYQs (CSC261):</strong>
+          <ol>
+            <li>What is AI? Explain Turing test and intelligent agent.</li>
+            <li>Explain A* search algorithm.</li>
+            <li>Differentiate BFS and DFS.</li>
+            <li>Explain knowledge representation using predicate logic.</li>
+            <li>What is an expert system? Components.</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <span class="footer-brand">Toya Bsc CSIT</span>
+          <p class="footer-desc">Free BSc CSIT notes and PYQs for Tribhuvan University students.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Semester IV</h4>
+          <ul>
+            <li><a href="#toc-notes">Theory of Computation</a></li>
+            <li><a href="#cn-notes">Computer Networks</a></li>
+            <li><a href="#os-notes">Operating Systems</a></li>
+            <li><a href="#dbms-notes">DBMS</a></li>
+            <li><a href="#ai-notes">Artificial Intelligence</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>More</h4>
+          <ul>
+            <li><a href="index.html">Back to Home</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="copyright">
+        &copy; <span id="year"></span> Toya Bsc CSIT. Educational purpose only.
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

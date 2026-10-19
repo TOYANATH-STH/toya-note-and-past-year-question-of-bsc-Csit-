@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BSc CSIT Semester VIII | Notes & Past Year Questions - Toya Bsc CSIT</title>
+  <meta name="description" content="BSc CSIT Semester VIII notes and past year questions. CSC461, CSC462, Elective IV, Elective V." />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="brand">
+        <span class="brand-icon">T</span>
+        <span>Toya Bsc CSIT</span>
+      </a>
+      <button class="mobile-menu-btn" aria-label="Open menu" aria-expanded="false">&#9776;</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#semesters">All Semesters</a></li>
+        <li><a href="#">Notes</a></li>
+        <li><a href="#">PYQs</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div class="container">
+      <div class="page-header">
+        <a href="index.html" class="back-link">&#8592; All Semesters</a>
+        <div class="sem-header">
+          <span class="sem-icon">📖</span>
+          <div class="sem-info">
+            <span class="sem-title">Semester VIII</span>
+            <span class="sem-count">4 Subjects</span>
+          </div>
+        </div>
+      </div>
+      <p class="hero-sub">4th Year, 2nd Semester &mdash; Advanced Database, Internship, and elective subjects.</p>
+    </div>
+  </section>
+
+  <div class="container">
+    <div class="subject-grid">
+
+      <!-- CSC461 Advanced Database -->
+      <a href="#advdb-notes" class="subject-card" data-sem="8" data-code="CSC461">
+        <div class="subject-header">
+          <span class="subject-name">Advanced Database</span>
+          <span class="subject-code">CSC461</span>
+        </div>
+        <div class="subject-body">
+          <button class="subject-btn notes">&#128218; Notes</button>
+          <button class="subject-btn pyq">&#128202; Past Year Questions</button>
+        </div>
+      </a>
+      <a href="#advdb-pyq" class="subject-card" data-sem="8" data-code="CSC461" style="border-left:4px solid var(--warning);">
+        <div class="subject-header">
+          <span class="subject-name">Advanced Database &mdash; PYQ</span>
+          <span class="subject-code">CSC461</span>
+        </div>
+        <div class="subject-body">
+          <button class="subject-btn pyq">&#128202; Past Year Questions</button>
+        </div>
+      </a>
+
+      <!-- CSC462 Internship -->
+      <a href="#internship-notes" class="subject-card" data-sem="8" data-code="CSC462">
+        <div class="subject-header">
+          <span class="subject-name">Internship</span>
+          <span class="subject-code">CSC462</span>
+        </div>
+        <div class="subject-body">
+          <button class="subject-btn notes">&#128218; Notes</button>
+          <button class="subject-btn pyq">&#128202; Past Year Questions</button>
+        </div>
+      </a>
+      <a href="#internship-pyq" class="subject-card" data-sem="8" data-code="CSC462" style="border-left:4px solid var(--warning);">
+        <div class="subject-header">
+          <span class="subject-name">Internship &mdash; PYQ</span>
+          <span class="subject-code">CSC462</span>
+        </div>
+        <div class="subject-body">
+          <button class="subject-btn pyq">&#128202; Past Year Questions</button>
+        </div>
+      </a>
+
+      <!-- Elective IV -->
+      <div class="subject-card" style="background:#f8fafc; cursor:default;">
+        <div class="subject-header">
+          <span class="subject-name">Elective IV</span>
+          <span class="subject-code">CSC47x</span>
+        </div>
+        <div class="subject-body">
+          <p style="font-size:0.8rem; color:var(--muted); margin:0;">Choose one elective offered by your college</p>
+        </div>
+      </div>
+      <!-- Elective V -->
+      <div class="subject-card" style="background:#f8fafc; cursor:default;">
+        <div class="subject-header">
+          <span class="subject-name">Elective V</span>
+          <span class="subject-code">CSC47x</span>
+        </div>
+        <div class="subject-body">
+          <p style="font-size:0.8rem; color:var(--muted); margin:0;">Choose one elective offered by your college</p>
+        </div>
+      </div>
+
+      <!-- Elective IV/V list -->
+      <a href="#elec4-ipv6-notes" class="subject-card" data-sem="8" data-code="CSC463">
+        <div class="subject-header">
+          <span class="subject-name">Advanced Networking with IPV6</span>
+          <span class="subject-code">CSC463</span>
+        </div>
+        <div class="subject-body">
+          <button class="subject-btn notes">&#128218; Notes</button>
+          <button class="subject-btn pyq">&#128202; Past Year Questions</button>
+        </div>
+      </a>
+      <a href="#elec4-dn-notes" class="subject-card" data-sem="8" data-code="CSC464">
+        <div class="subject-header">
+          <span class="subject-name">Distributed Networking</span>
+          <span class="subject-code">CSC464</span>
+        </div>
+        <div class="subject-body">
+          <button class="subject-btn notes">&#128218; Notes</button>
+          <button class="subject-btn pyq">&#128202; Past Year Questions</button>
+        </div>
+      </a>
+      <a href="#elec4-gt-notes" class="subject-card" data-sem="8" data-code="CSC465">
+        <div class="subject-header">
+          <span class="subject-name">Game Technology</span>
+          <span class="subject-code">CSC465</span>
+        </div>
+        <div class="subject-body">
+          <button class="subject-btn notes">&#128218; Notes</button>
+          <button class="subject-btn pyq">&#128202; Past Year Questions</button>
+        </div>
+      </a>
+      <a href="#elec4-doodb-notes" class="subject-card" data-sem="8" data-code="CSC466">
+        <div class="subject-header">
+          <span class="subject-name">Distributed and Object Oriented Database</span>
+          <span class="subject-code">CSC466</span>
+        </div>
+        <div class="subject-body">
+          <button class="subject-btn notes">&#128218; Notes</button>
+          <button class="subject-btn pyq">&#128202; Past Year Questions</button>
+        </div>
+      </a>
+      <a href="#elec4-cc-notes" class="subject-card" data-sem="8" data-code="CSC467">
+        <div class="subject-header">
+          <span class="subject-name">Introduction to Cloud Computing</span>
+          <span class="subject-code">CSC467</span>
+        </div>
+        <div class="subject-body">
+          <button class="subject-btn notes">&#128218; Notes</button>
+          <button class="subject-btn pyq">&#128202; Past Year Questions</button>
+        </div>
+      </a>
+      <a href="#elec4-gis-notes" class="subject-card" data-sem="8" data-code="CSC468">
+        <div class="subject-header">
+          <span class="subject-name">Geographical Information System</span>
+          <span class="subject-code">CSC468</span>
+        </div>
+        <div class="subject-body">
+          <button class="subject-btn notes">&#128218; Notes</button>
+          <button class="subject-btn pyq">&#128202; Past Year Questions</button>
+        </div>
+      </a>
+      <a href="#elec4-dses-notes" class="subject-card" data-sem="8" data-code="CSC469">
+        <div class="subject-header">
+          <span class="subject-name">Decision Support System and Expert System</span>
+          <span class="subject-code">CSC469</span>
+        </div>
+        <div class="subject-body">
+          <button class="subject-btn notes">&#128218; Notes</button>
+          <button class="subject-btn pyq">&#128202; Past Year Questions</button>
+        </div>
+      </a>
+      <a href="#elec4-mad-notes" class="subject-card" data-sem="8" data-code="CSC470">
+        <div class="subject-header">
+          <span class="subject-name">Mobile Application Development</span>
+          <span class="subject-code">CSC470</span>
+        </div>
+        <div class="subject-body">
+          <button class="subject-btn notes">&#128218; Notes</button>
+          <button class="subject-btn pyq">&#128202; Past Year Questions</button>
+        </div>
+      </a>
+      <a href="#elec4-rts-notes" class="subject-card" data-sem="8" data-code="CSC471">
+        <div class="subject-header">
+          <span class="subject-name">Real Time Systems</span>
+          <span class="subject-code">CSC471</span>
+        </div>
+        <div class="subject-body">
+          <button class="subject-btn notes">&#128218; Notes</button>
+          <button class="subject-btn pyq">&#128202; Past Year Questions</button>
+        </div>
+      </a>
+      <a href="#elec4-nsa-notes" class="subject-card" data-sem="8" data-code="CSC472">
+        <div class="subject-header">
+          <span class="subject-name">Network and System Administration</span>
+          <span class="subject-code">CSC472</span>
+        </div>
+        <div class="subject-body">
+          <button class="subject-btn notes">&#128218; Notes</button>
+          <button class="subject-btn pyq">&#128202; Past Year Questions</button>
+        </div>
+      </a>
+      <a href="#elec4-esp-notes" class="subject-card" data-sem="8" data-code="CSC473">
+        <div class="subject-header">
+          <span class="subject-name">Embedded Systems Programming</span>
+          <span class="subject-code">CSC473</span>
+        </div>
+        <div class="subject-body">
+          <button class="subject-btn notes">&#128218; Notes</button>
+          <button class="subject-btn pyq">&#128202; Past Year Questions</button>
+        </div>
+      </a>
+      <a href="#elec4-ibm-notes" class="subject-card" data-sem="8" data-code="MGT474">
+        <div class="subject-header">
+          <span class="subject-name">International Business Management</span>
+          <span class="subject-code">MGT474</span>
+        </div>
+        <div class="subject-body">
+          <button class="subject-btn notes">&#128218; Notes</button>
+          <button class="subject-btn pyq">&#128202; Past Year Questions</button>
+        </div>
+      </a>
+
+    </div>
+  </div>
+
+  <!-- Content Sections -->
+  <div class="container" >
+
+    <a id="advdb-notes"></a>
+    <div class="content-section">
+      <div class="content-header">
+        <a href="sem8.html" class="back-link">&#8592; Back to Semester VIII</a>
+        <h2>Advanced Database &mdash; Notes</h2>
+      </div>
+      <div class="content-actions">
+        <button class="btn btn-download">&#128466; Download PDF</button>
+      </div>
+      <div class="content-body">
+        <p><strong>Advanced Database (CSC461)</strong> covers advanced database concepts beyond basic DBMS.</p>
+        <div class="note-box">
+          <strong>Key Topics:</strong> Distributed databases, object-oriented databases, object-relational databases, data warehouses, data mining, XML databases, NoSQL, temporal/spatial databases, transaction management in distributed DB.
+        </div>
+        <h3>Core Topics</h3>
+        <ul>
+          <li>Distributed DB: architecture, fragmentation, replication.</li>
+          <li>OODB vs ORDB vs RDB.</li>
+          <li>NoSQL: document, key-value, column-family, graph databases.</li>
+          <li>XML: DTD, XQuery, XPath.</li>
+          <li>Concurrency control and recovery in advanced systems.</li>
+        </ul>
+      </div>
+    </div>
+
+    <a id="advdb-pyq"></a>
+    <div class="content-section">
+      <div class="content-header">
+        <a href="sem8.html" class="back-link">&#8592; Back to Semester VIII</a>
+        <h2>Advanced Database &mdash; Past Year Questions</h2>
+      </div>
+      <div class="content-actions">
+        <button class="btn btn-download">&#128466; Download PYQ PDF</button>
+      </div>
+      <div class="content-body">
+        <div class="pyq-box">
+          <strong>Sample PYQs (CSC461):</strong>
+          <ol>
+            <li>What is a distributed database? Explain its architecture.</li>
+            <li>Differentiate between OODB and ORDB.</li>
+            <li>What is NoSQL? Explain types of NoSQL databases.</li>
+            <li>Explain data fragmentation and replication.</li>
+            <li>Explain concurrency control in distributed databases.</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+
+    <a id="internship-notes"></a>
+    <div class="content-section">
+      <div class="content-header">
+        <a href="sem8.html" class="back-link">&#8592; Back to Semester VIII</a>
+        <h2>Internship &mdash; Notes</h2>
+      </div>
+      <div class="content-actions">
+        <button class="btn btn-download">&#128466; Download PDF</button>
+      </div>
+      <div class="content-body">
+        <p><strong>Internship (CSC462)</strong> is the practical training component where students work in an IT organization.</p>
+        <div class="note-box">
+          <strong>Key Topics:</strong> Internship objectives, organization profile, work assignment, tools and technologies used, learning outcomes, internship report format, certificate, presentation, evaluation.
+        </div>
+        <h3>Report Structure</h3>
+        <ul>
+          <li>Organization profile and history.</li>
+          <li>Department and work assignment details.</li>
+          <li>Technologies and tools used during internship.</li>
+          <li>Tasks performed and problems solved.</li>
+          <li>Learning outcomes and suggestions.</li>
+          <li>Certificate and supervisor evaluation.</li>
+        </ul>
+      </div>
+    </div>
+
+    <a id="internship-pyq"></a>
+    <div class="content-section">
+      <div class="content-header">
+        <a href="sem8.html" class="back-link">&#8592; Back to Semester VIII</a>
+        <h2>Internship &mdash; Past Year Questions</h2>
+      </div>
+      <div class="content-actions">
+        <button class="btn btn-download">&#128466; Download PYQ PDF</button>
+      </div>
+      <div class="content-body">
+        <div class="pyq-box">
+          <strong>Sample PYQs (CSC462):</strong>
+          <ol>
+            <li>What is an internship? Explain its importance for CSIT students.</li>
+            <li>Explain the contents of an internship report.</li>
+            <li>How to prepare for internship presentation and viva?</li>
+            <li>Explain the role of a supervisor during internship.</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+
+    <!-- Elective subjects detailed sections -->
+    <a id="elec4-ipv6-notes"></a>
+    <div class="content-section">
+      <div class="content-header">
+        <a href="sem8.html" class="back-link">&#8592; Back to Semester VIII</a>
+        <h2>Advanced Networking with IPV6 &mdash; Notes</h2>
+      </div>
+      <div class="content-actions">
+        <button class="btn btn-download">&#128466; Download PDF</button>
+      </div>
+      <div class="content-body">
+        <p><strong>Advanced Networking with IPV6 (CSC463)</strong> elective covers IPv6 and advanced networking.</p>
+        <div class="note-box">
+          <strong>Key Topics:</strong> IPv4 limitations, IPv6 address format, types of IPv6 addresses, ICMPv6, neighbor discovery, autoconfiguration, routing (OSPFv3, BGP4+), transition mechanisms, tunneling.
+        </div>
+      </div>
+    </div>
+
+    <a id="elec4-dn-notes"></a>
+    <div class="content-section">
+      <div class="content-header">
+        <a href="sem8.html" class="back-link">&#8592; Back to Semester VIII</a>
+        <h2>Distributed Networking &mdash; Notes</h2>
+      </div>
+      <div class="content-actions">
+        <button class="btn btn-download">&#128466; Download PDF</button>
+      </div>
+      <div class="content-body">
+        <p><strong>Distributed Networking (CSC464)</strong> elective covers distributed systems networking.</p>
+        <div class="note-box">
+          <strong>Key Topics:</strong> Distributed system models, communication, naming, synchronization, consistency, replication, fault tolerance, distributed file systems, distributed shared memory.
+        </div>
+      </div>
+    </div>
+
+    <a id="elec4-gt-notes"></a>
+    <div class="content-section">
+      <div class="content-header">
+        <a href="sem8.html" class="back-link">&#8592; Back to Semester VIII</a>
+        <h2>Game Technology &mdash; Notes</h2>
+      </div>
+      <div class="content-actions">
+        <button class="btn btn-download">&#128466; Download PDF</button>
+      </div>
+      <div class="content-body">
+        <p><strong>Game Technology (CSC465)</strong> elective covers game development concepts.</p>
+        <div class="note-box">
+          <strong>Key Topics:</strong> Game design, game engines, graphics rendering, physics, AI in games, audio, networking in games, mobile game development, Unity/Unreal basics.
+        </div>
+      </div>
+    </div>
+
+    <a id="elec4-doodb-notes"></a>
+    <div class="content-section">
+      <div class="content-header">
+        <a href="sem8.html" class="back-link">&#8592; Back to Semester VIII</a>
+        <h2>Distributed and Object Oriented Database &mdash; Notes</h2>
+      </div>
+      <div class="content-actions">
+        <button class="btn btn-download">&#128466; Download PDF</button>
+      </div>
+      <div class="content-body">
+        <p><strong>Distributed and Object Oriented Database (CSC466)</strong> elective covers advanced database paradigms.</p>
+        <div class="note-box">
+          <strong>Key Topics:</strong> OODBMS concepts, objects, classes, inheritance, encapsulation, OQL, distributed database design, fragmentation, transparency, distributed query processing.
+        </div>
+      </div>
+    </div>
+
+    <a id="elec4-cc-notes"></a>
+    <div class="content-section">
+      <div class="content-header">
+        <a href="sem8.html" class="back-link">&#8592; Back to Semester VIII</a>
+        <h2>Introduction to Cloud Computing &mdash; Notes</h2>
+      </div>
+      <div class="content-actions">
+        <button class="btn btn-download">&#128466; Download PDF</button>
+      </div>
+      <div class="content-body">
+        <p><strong>Introduction to Cloud Computing (CSC467)</strong> elective covers cloud fundamentals.</p>
+        <div class="note-box">
+          <strong>Key Topics:</strong> Cloud characteristics, service models (IaaS, PaaS, SaaS), deployment models (public, private, hybrid, community), virtualization, cloud architecture, security, AWS/Azure/GCP overview.
+        </div>
+      </div>
+    </div>
+
+    <a id="elec4-gis-notes"></a>
+    <div class="content-section">
+      <div class="content-header">
+        <a href="sem8.html" class="back-link">&#8592; Back to Semester VIII</a>
+        <h2>Geographical Information System &mdash; Notes</h2>
+      </div>
+      <div class="content-actions">
+        <button class="btn btn-download">&#128466; Download PDF</button>
+      </div>
+      <div class="content-body">
+        <p><strong>Geographical Information System (CSC468)</strong> elective covers GIS concepts and spatial data.</p>
+        <div class="note-box">
+          <strong>Key Topics:</strong> GIS introduction, spatial data models, vector vs raster, data input, spatial analysis, cartography, remote sensing, GIS applications, GPS.
+        </div>
+      </div>
+    </div>
+
+    <a id="elec4-dses-notes"></a>
+    <div class="content-section">
+      <div class="content-header">
+        <a href="sem8.html" class="back-link">&#8592; Back to Semester VIII</a>
+        <h2>Decision Support System and Expert System &mdash; Notes</h2>
+      </div>
+      <div class="content-actions">
+        <button class="btn btn-download">&#128466; Download PDF</button>
+      </div>
+      <div class="content-body">
+        <p><strong>Decision Support System and Expert System (CSC469)</strong> elective covers DSS and ES.</p>
+        <div class="note-box">
+          <strong>Key Topics:</strong> DSS components, types of DSS, group DSS, expert system components, knowledge base, inference engine, forward/backward chaining, expert system shells, applications.
+        </div>
+      </div>
+    </div>
+
+    <a id="elec4-mad-notes"></a>
+    <div class="content-section">
+      <div class="content-header">
+        <a href="sem8.html" class="back-link">&#8592; Back to Semester VIII</a>
+        <h2>Mobile Application Development &mdash; Notes</h2>
+      </div>
+      <div class="content-actions">
+        <button class="btn btn-download">&#128466; Download PDF</button>
+      </div>
+      <div class="content-body">
+        <p><strong>Mobile Application Development (CSC470)</strong> elective covers mobile app development.</p>
+        <div class="note-box">
+          <strong>Key Topics:</strong> Mobile platforms (Android/iOS), app architecture, UI design, activities/fragments, data storage, networking, sensors, publishing to app stores, cross-platform frameworks.
+        </div>
+      </div>
+    </div>
+
+    <a id="elec4-rts-notes"></a>
+    <div class="content-section">
+      <div class="content-header">
+        <a href="sem8.html" class="back-link">&#8592; Back to Semester VIII</a>
+        <h2>Real Time Systems &mdash; Notes</h2>
+      </div>
+      <div class="content-actions">
+        <button class="btn btn-download">&#128466; Download PDF</button>
+      </div>
+      <div class="content-body">
+        <p><strong>Real Time Systems (CSC471)</strong> elective covers real-time computing.</p>
+        <div class="note-box">
+          <strong>Key Topics:</strong> Real-time system characteristics, hard vs soft real-time, real-time scheduling (RMS, EDF), resource sharing, real-time OS, fault tolerance, case studies.
+        </div>
+      </div>
+    </div>
+
+    <a id="elec4-nsa-notes"></a>
+    <div class="content-section">
+      <div class="content-header">
+        <a href="sem8.html" class="back-link">&#8592; Back to Semester VIII</a>
+        <h2>Network and System Administration &mdash; Notes</h2>
+      </div>
+      <div class="content-actions">
+        <button class="btn btn-download">&#128466; Download PDF</button>
+      </div>
+      <div class="content-body">
+        <p><strong>Network and System Administration (CSC472)</strong> elective covers network admin.</p>
+        <div class="note-box">
+          <strong>Key Topics:</strong> Network planning, server installation, user management, directory services, DNS/DHCP, web/mail servers, monitoring, backup, security, troubleshooting.
+        </div>
+      </div>
+    </div>
+
+    <a id="elec4-esp-notes"></a>
+    <div class="content-section">
+      <div class="content-header">
+        <a href="sem8.html" class="back-link">&#8592; Back to Semester VIII</a>
+        <h2>Embedded Systems Programming &mdash; Notes</h2>
+      </div>
+      <div class="content-actions">
+        <button class="btn btn-download">&#128466; Download PDF</button>
+      </div>
+      <div class="content-body">
+        <p><strong>Embedded Systems Programming (CSC473)</strong> elective covers embedded programming.</p>
+        <div class="note-box">
+          <strong>Key Topics:</strong> Embedded system basics, microcontrollers, ARM architecture, C programming for embedded, interrupts, timers, I/O interfacing, RTOS basics, debugging.
+        </div>
+      </div>
+    </div>
+
+    <a id="elec4-ibm-notes"></a>
+    <div class="content-section">
+      <div class="content-header">
+        <a href="sem8.html" class="back-link">&#8592; Back to Semester VIII</a>
+        <h2>International Business Management &mdash; Notes</h2>
+      </div>
+      <div class="content-actions">
+        <button class="btn btn-download">&#128466; Download PDF</button>
+      </div>
+      <div class="content-body">
+        <p><strong>International Business Management (MGT474)</strong> elective covers global business.</p>
+        <div class="note-box">
+          <strong>Key Topics:</strong> International business environment, globalization, international trade theories, foreign direct entry, multinational corporations, cultural differences, international HRM, finance.
+        </div>
+      </div>
+    </div>
+
+    <!-- Elective PYQs -->
+    <a id="elec4-ipv6-pyq"></a>
+    <div class="content-section">
+      <div class="content-header">
+        <a href="sem8.html" class="back-link">&#8592; Back to Semester VIII</a>
+        <h2>Advanced Networking with IPV6 &mdash; Past Year Questions</h2>
+      </div>
+      <div class="content-actions">
+        <button class="btn btn-download">&#128466; Download PYQ PDF</button>
+      </div>
+      <div class="content-body">
+        <div class="pyq-box">
+          <strong>Sample PYQs (CSC463):</strong>
+          <ol>
+            <li>What are limitations of IPv4? Explain IPv6 address format.</li>
+            <li>Explain types of IPv6 addresses.</li>
+            <li>Explain neighbor discovery in IPv6.</li>
+            <li>Explain IPv4 to IPv6 transition mechanisms.</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+
+    <a id="elec4-dn-pyq"></a>
+    <div class="content-section">
+      <div class="content-header">
+        <a href="sem8.html" class="back-link">&#8592; Back to Semester VIII</a>
+        <h2>Distributed Networking &mdash; Past Year Questions</h2>
+      </div>
+      <div class="content-actions">
+        <button class="btn btn-download">&#128466; Download PYQ PDF</button>
+      </div>
+      <div class="content-body">
+        <div class="pyq-box">
+          <strong>Sample PYQs (CSC464):</strong>
+          <ol>
+            <li>What is a distributed system? Explain its characteristics.</li>
+            <li>Explain transparency in distributed systems.</li>
+            <li>Explain distributed file system architecture.</li>
+            <li>What is distributed shared memory?</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+
+    <a id="elec4-gt-pyq"></a>
+    <div class="content-section">
+      <div class="content-header">
+        <a href="sem8.html" class="back-link">&#8592; Back to Semester VIII</a>
+        <h2>Game Technology &mdash; Past Year Questions</h2>
+      </div>
+      <div class="content-actions">
+        <button class="btn btn-download">&#128466; Download PYQ PDF</button>
+      </div>
+      <div class="content-body">
+        <div class="pyq-box">
+          <strong>Sample PYQs (CSC465):</strong>
+          <ol>
+            <li>What is game technology? Explain game engine components.</li>
+            <li>Explain game physics and AI in games.</li>
+            <li>Differentiate between 2D and 3D game development.</li>
+            <li>Explain mobile game development challenges.</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+
+    <a id="elec4-doodb-pyq"></a>
+    <div class="content-section">
+      <div class="content-header">
+        <a href="sem8.html" class="back-link">&#8592; Back to Semester VIII</a>
+        <h2>Distributed and Object Oriented Database &mdash; Past Year Questions</h2>
+      </div>
+      <div class="content-actions">
+        <button class="btn btn-download">&#128466; Download PYQ PDF</button>
+      </div>
+      <div class="content-body">
+        <div class="pyq-box">
+          <strong>Sample PYQs (CSC466):</strong>
+          <ol>
+            <li>What is OODBMS? Explain its advantages over RDBMS.</li>
+            <li>Explain objects, classes, and inheritance in OODB.</li>
+            <li>What is OQL? Give example queries.</li>
+            <li>Explain distributed database transparency.</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+
+    <a id="elec4-cc-pyq"></a>
+    <div class="content-section">
+      <div class="content-header">
+        <a href="sem8.html" class="back-link">&#8592; Back to Semester VIII</a>
+        <h2>Introduction to Cloud Computing &mdash; Past Year Questions</h2>
+      </div>
+      <div class="content-actions">
+        <button class="btn btn-download">&#128466; Download PYQ PDF</button>
+      </div>
+      <div class="content-body">
+        <div class="pyq-box">
+          <strong>Sample PYQs (CSC467):</strong>
+          <ol>
+            <li>What is cloud computing? Explain its characteristics.</li>
+            <li>Explain service models: IaaS, PaaS, SaaS.</li>
+            <li>Differentiate public, private, and hybrid cloud.</li>
+            <li>Explain cloud security challenges.</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+
+    <a id="elec4-gis-pyq"></a>
+    <div class="content-section">
+      <div class="content-header">
+        <a href="sem8.html" class="back-link">&#8592; Back to Semester VIII</a>
+        <h2>Geographical Information System &mdash; Past Year Questions</h2>
+      </div>
+      <div class="content-actions">
+        <button class="btn btn-download">&#128466; Download PYQ PDF</button>
+      </div>
+      <div class="content-body">
+        <div class="pyq-box">
+          <strong>Sample PYQs (CSC468):</strong>
+          <ol>
+            <li>What is GIS? Explain its components.</li>
+            <li>Differentiate between vector and raster data models.</li>
+            <li>Explain spatial analysis in GIS.</li>
+            <li>Explain applications of GIS.</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+
+    <a id="elec4-dses-pyq"></a>
+    <div class="content-section">
+      <div class="content-header">
+        <a href="sem8.html" class="back-link">&#8592; Back to Semester VIII</a>
+        <h2>DSS and Expert System &mdash; Past Year Questions</h2>
+      </div>
+      <div class="content-actions">
+        <button class="btn btn-download">&#128466; Download PYQ PDF</button>
+      </div>
+      <div class="content-body">
+        <div class="pyq-box">
+          <strong>Sample PYQs (CSC469):</strong>
+          <ol>
+            <li>What is DSS? Explain its components.</li>
+            <li>Differentiate between DSS and MIS.</li>
+            <li>What is an expert system? Explain knowledge base and inference engine.</li>
+            <li>Explain forward and backward chaining.</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+
+    <a id="elec4-mad-pyq"></a>
+    <div class="content-section">
+      <div class="content-header">
+        <a href="sem8.html" class="back-link">&#8592; Back to Semester VIII</a>
+        <h2>Mobile Application Development &mdash; Past Year Questions</h2>
+      </div>
+      <div class="content-actions">
+        <button class="btn btn-download">&#128466; Download PYQ PDF</button>
+      </div>
+      <div class="content-body">
+        <div class="pyq-box">
+          <strong>Sample PYQs (CSC470):</strong>
+          <ol>
+            <li>What is mobile application development? Explain mobile platforms.</li>
+            <li>Explain Android activity lifecycle.</li>
+            <li>Explain data storage options in mobile apps.</li>
+            <li>How to publish an app on Google Play Store?</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+
+    <a id="elec4-rts-pyq"></a>
+    <div class="content-section">
+      <div class="content-header">
+        <a href="sem8.html" class="back-link">&#8592; Back to Semester VIII</a>
+        <h2>Real Time Systems &mdash; Past Year Questions</h2>
+      </div>
+      <div class="content-actions">
+        <button class="btn btn-download">&#128466; Download PYQ PDF</button>
+      </div>
+      <div class="content-body">
+        <div class="pyq-box">
+          <strong>Sample PYQs (CSC471):</strong>
+          <ol>
+            <li>What is a real-time system? Explain characteristics.</li>
+            <li>Differentiate between hard and soft real-time systems.</li>
+            <li>Explain rate monotonic scheduling.</li>
+            <li>What is a real-time operating system?</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+
+    <a id="elec4-nsa-pyq"></a>
+    <div class="content-section">
+      <div class="content-header">
+        <a href="sem8.html" class="back-link">&#8592; Back to Semester VIII</a>
+        <h2>Network and System Administration &mdash; Past Year Questions</h2>
+      </div>
+      <div class="content-actions">
+        <button class="btn btn-download">&#128466; Download PYQ PDF</button>
+      </div>
+      <div class="content-body">
+        <div class="pyq-box">
+          <strong>Sample PYQs (CSC472):</strong>
+          <ol>
+            <li>What is network and system administration?</li>
+            <li>Explain DNS and DHCP servers configuration.</li>
+            <li>Explain user and group management in Linux/Windows server.</li>
+            <li>Explain network monitoring and backup strategies.</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+
+    <a id="elec4-esp-pyq"></a>
+    <div class="content-section">
+      <div class="content-header">
+        <a href="sem8.html" class="back-link">&#8592; Back to Semester VIII</a>
+        <h2>Embedded Systems Programming &mdash; Past Year Questions</h2>
+      </div>
+      <div class="content-actions">
+        <button class="btn btn-download">&#128466; Download PYQ PDF</button>
+      </div>
+      <div class="content-body">
+        <div class="pyq-box">
+          <strong>Sample PYQs (CSC473):</strong>
+          <ol>
+            <li>What is an embedded system? Explain its characteristics.</li>
+            <li>Explain ARM architecture basics.</li>
+            <li>Explain interrupts and timers in microcontrollers.</li>
+            <li>What is RTOS? Explain its need in embedded systems.</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+
+    <a id="elec4-ibm-pyq"></a>
+    <div class="content-section">
+      <div class="content-header">
+        <a href="sem8.html" class="back-link">&#8592; Back to Semester VIII</a>
+        <h2>International Business Management &mdash; Past Year Questions</h2>
+      </div>
+      <div class="content-actions">
+        <button class="btn btn-download">&#128466; Download PYQ PDF</button>
+      </div>
+      <div class="content-body">
+        <div class="pyq-box">
+          <strong>Sample PYQs (MGT474):</strong>
+          <ol>
+            <li>What is international business? Explain its scope.</li>
+            <li>Explain theories of international trade.</li>
+            <li>What is FDI? Explain its types.</li>
+            <li>Explain cultural differences in international business.</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <span class="footer-brand">Toya Bsc CSIT</span>
+          <p class="footer-desc">Free BSc CSIT notes and PYQs for Tribhuvan University students.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Semester VIII</h4>
+          <ul>
+            <li><a href="#advdb-notes">Advanced Database</a></li>
+            <li><a href="#internship-notes">Internship</a></li>
+            <li><a href="#elec4-ipv6-notes">Elective IV</a></li>
+            <li><a href="#elec4-cc-notes">Elective V</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>More</h4>
+          <ul>
+            <li><a href="index.html">Back to Home</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="copyright">
+        &copy; <span id="year"></span> Toya Bsc CSIT. Educational purpose only.
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

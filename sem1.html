@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BSc CSIT Semester I | Notes & Past Year Questions - Toya Bsc CSIT</title>
+  <meta name="description" content="BSc CSIT Semester I notes and past year questions. CSC109, CSC110, CSC111, MTH112, PHY113." />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="brand">
+        <span class="brand-icon">T</span>
+        <span>Toya Bsc CSIT</span>
+      </a>
+      <button class="mobile-menu-btn" aria-label="Open menu" aria-expanded="false">&#9776;</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#semesters">All Semesters</a></li>
+        <li><a href="#">Notes</a></li>
+        <li><a href="#">PYQs</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div class="container">
+      <div class="page-header">
+        <a href="index.html" class="back-link">&#8592; All Semesters</a>
+        <div class="sem-header">
+          <span class="sem-icon">🛠️</span>
+          <div class="sem-info">
+            <span class="sem-title">Semester I</span>
+            <span class="sem-count">5 Subjects</span>
+          </div>
+        </div>
+      </div>
+      <p class="hero-sub">1st Year, 1st Semester &mdash; Subject-wise notes and previous year questions.</p>
+    </div>
+  </section>
+
+  <div class="container">
+    <div class="subject-grid">
+
+      <!-- CSC109 Introduction to Information Technology -->
+      <a href="#it-notes" class="subject-card" data-sem="1" data-code="CSC109">
+        <div class="subject-header">
+          <span class="subject-name">Introduction to Information Technology</span>
+          <span class="subject-code">CSC109</span>
+        </div>
+        <div class="subject-body">
+          <button class="subject-btn notes">&#128218; Notes</button>
+          <button class="subject-btn pyq">&#128202; Past Year Questions</button>
+        </div>
+      </a>
+      <a href="#it-pyq" class="subject-card" data-sem="1" data-code="CSC109" style="border-left:4px solid var(--warning);">
+        <div class="subject-header">
+          <span class="subject-name">Introduction to IT &mdash; PYQ</span>
+          <span class="subject-code">CSC109</span>
+        </div>
+        <div class="subject-body">
+          <button class="subject-btn pyq">&#128202; Past Year Questions</button>
+        </div>
+      </a>
+
+      <!-- CSC110 C Programming -->
+      <a href="#cprog-notes" class="subject-card" data-sem="1" data-code="CSC110">
+        <div class="subject-header">
+          <span class="subject-name">C Programming</span>
+          <span class="subject-code">CSC110</span>
+        </div>
+        <div class="subject-body">
+          <button class="subject-btn notes">&#128218; Notes</button>
+          <button class="subject-btn pyq">&#128202; Past Year Questions</button>
+        </div>
+      </a>
+      <a href="#cprog-pyq" class="subject-card" data-sem="1" data-code="CSC110" style="border-left:4px solid var(--warning);">
+        <div class="subject-header">
+          <span class="subject-name">C Programming &mdash; PYQ</span>
+          <span class="subject-code">CSC110</span>
+        </div>
+        <div class="subject-body">
+          <button class="subject-btn pyq">&#128202; Past Year Questions</button>
+        </div>
+      </a>
+
+      <!-- CSC111 Digital Logic -->
+      <a href="#dlogic-notes" class="subject-card" data-sem="1" data-code="CSC111">
+        <div class="subject-header">
+          <span class="subject-name">Digital Logic</span>
+          <span class="subject-code">CSC111</span>
+        </div>
+        <div class="subject-body">
+          <button class="subject-btn notes">&#128218; Notes</button>
+          <button class="subject-btn pyq">&#128202; Past Year Questions</button>
+        </div>
+      </a>
+      <a href="#dlogic-pyq" class="subject-card" data-sem="1" data-code="CSC111" style="border-left:4px solid var(--warning);">
+        <div class="subject-header">
+          <span class="subject-name">Digital Logic &mdash; PYQ</span>
+          <span class="subject-code">CSC111</span>
+        </div>
+        <div class="subject-body">
+          <button class="subject-btn pyq">&#128202; Past Year Questions</button>
+        </div>
+      </a>
+
+      <!-- MTH112 Mathematics I -->
+      <a href="#math1-notes" class="subject-card" data-sem="1" data-code="MTH112">
+        <div class="subject-header">
+          <span class="subject-name">Mathematics I</span>
+          <span class="subject-code">MTH112</span>
+        </div>
+        <div class="subject-body">
+          <button class="subject-btn notes">&#128218; Notes</button>
+          <button class="subject-btn pyq">&#128202; Past Year Questions</button>
+        </div>
+      </a>
+      <a href="#math1-pyq" class="subject-card" data-sem="1" data-code="MTH112" style="border-left:4px solid var(--warning);">
+        <div class="subject-header">
+          <span class="subject-name">Mathematics I &mdash; PYQ</span>
+          <span class="subject-code">MTH112</span>
+        </div>
+        <div class="subject-body">
+          <button class="subject-btn pyq">&#128202; Past Year Questions</button>
+        </div>
+      </a>
+
+      <!-- PHY113 Physics -->
+      <a href="#physics-notes" class="subject-card" data-sem="1" data-code="PHY113">
+        <div class="subject-header">
+          <span class="subject-name">Physics</span>
+          <span class="subject-code">PHY113</span>
+        </div>
+        <div class="subject-body">
+          <button class="subject-btn notes">&#128218; Notes</button>
+          <button class="subject-btn pyq">&#128202; Past Year Questions</button>
+        </div>
+      </a>
+      <a href="#physics-pyq" class="subject-card" data-sem="1" data-code="PHY113" style="border-left:4px solid var(--warning);">
+        <div class="subject-header">
+          <span class="subject-name">Physics &mdash; PYQ</span>
+          <span class="subject-code">PHY113</span>
+        </div>
+        <div class="subject-body">
+          <button class="subject-btn pyq">&#128202; Past Year Questions</button>
+        </div>
+      </a>
+
+    </div>
+  </div>
+
+  <!-- Content Sections -->
+  <div class="container" >
+
+    <a id="it-notes"></a>
+    <div class="content-section">
+      <div class="content-header">
+        <a href="sem1.html" class="back-link">&#8592; Back to Semester I</a>
+        <h2>Introduction to Information Technology &mdash; Notes</h2>
+      </div>
+      <div class="content-actions">
+        <button class="btn btn-download">&#128466; Download PDF</button>
+      </div>
+      <div class="content-body">
+        <p><strong>Introduction to Information Technology (CSC109)</strong> introduces basic IT concepts, computer fundamentals, and information systems.</p>
+        <div class="note-box">
+          <strong>Key Topics:</strong> Computer fundamentals, generations of computers, hardware &amp; software, input/output devices, memory, operating systems, number systems, data communication basics, internet and WWW, information systems, ethical and social issues in IT.
+        </div>
+        <h3>Important Topics</h3>
+        <ul>
+          <li>Block diagram of computer, CPU, ALU, control unit.</li>
+          <li>Types of software: system software, application software.</li>
+          <li>Number systems: binary, octal, decimal, hexadecimal conversions.</li>
+          <li>Operating system functions: process, memory, file management.</li>
+          <li>Internet, browsers, search engines, email, WWW architecture.</li>
+        </ul>
+      </div>
+    </div>
+
+    <a id="it-pyq"></a>
+    <div class="content-section">
+      <div class="content-header">
+        <a href="sem1.html" class="back-link">&#8592; Back to Semester I</a>
+        <h2>Introduction to Information Technology &mdash; Past Year Questions</h2>
+      </div>
+      <div class="content-actions">
+        <button class="btn btn-download">&#128466; Download PYQ PDF</button>
+      </div>
+      <div class="content-body">
+        <div class="pyq-box">
+          <strong>Introduction to Information Technology &mdash; 2082 Board</strong>
+          <p style="margin-bottom:1rem;"><strong>FM:</strong> 60 &nbsp;|&nbsp; <strong>PM:</strong> 24</p>
+          <p><strong>Section A &mdash; Answer any two questions.</strong></p>
+
+          <p><strong>1.</strong> What is network topology? How is ring topology different from star topology and mesh topology? Mention the pros and cons of each of them.</p>
+          <p class="marks">10</p>
+
+          <p><strong>2.</strong> Explain the various types of system software with their usages. What are the characteristics of multimedia?</p>
+          <p class="marks">10</p>
+
+          <p><strong>3.</strong> What is the use of cache memory in a computer system? Discuss the various types of source and human data entry devices.</p>
+          <p class="marks">10</p>
+
+          <p><strong>Section B &mdash; Answer any eight questions.</strong></p>
+
+          <p><strong>4.</strong> Based on size, describe the classes of a computer.</p>
+          <p class="marks">5</p>
+
+          <p><strong>5.</strong> How does ALU and CPU work in the central processing unit?</p>
+          <p class="marks">5</p>
+
+          <p><strong>6.</strong> How is decimal to binary conversion done? Convert (15.34)<sub>10</sub> to the binary.</p>
+          <p class="marks">5</p>
+
+          <p><strong>7.</strong> What are binary coding schemes? How can you represent signed and unsigned numbers?</p>
+          <p class="marks">5</p>
+
+          <p><strong>8.</strong> What is an internet address? How are computers on the internet identified through IP addresses? Explain with examples.</p>
+          <p class="marks">5</p>
+
+          <p><strong>9.</strong> Explain the significance of data warehousing and data mining computer systems.</p>
+          <p class="marks">5</p>
+
+          <p><strong>10.</strong> What is computer security? How is digital signature used to ensure security in computer systems?</p>
+          <p class="marks">5</p>
+
+          <p><strong>11.</strong> Differentiate between static RAM and dynamic RAM.</p>
+          <p class="marks">5</p>
+
+          <p><strong>12.</strong> Write short notes on:</p>
+          <p style="margin-left:1rem;">a) Instruction set</p>
+          <p style="margin-left:1rem;">b) Logic Gates</p>
+          <p class="marks">5</p>
+        </div>
+      </div>
+    </div>
+
+    <a id="cprog-notes"></a>
+    <div class="content-section">
+      <div class="content-header">
+        <a href="sem1.html" class="back-link">&#8592; Back to Semester I</a>
+        <h2>C Programming &mdash; Notes</h2>
+      </div>
+      <div class="content-actions">
+        <button class="btn btn-download">&#128466; Download PDF</button>
+      </div>
+      <div class="content-body">
+        <p><strong>C Programming (CSC110)</strong> is the foundation of computer programming for BSc CSIT students.</p>
+        <div class="note-box">
+          <strong>Key Topics:</strong> Structure of C program, data types, operators, control statements, functions, arrays, pointers, strings, structures, unions, file handling, preprocessor directives, dynamic memory allocation.
+        </div>
+        <h3>Chapter-wise Summary</h3>
+        <ul>
+          <li><strong>Basics:</strong> Structure of C program, compilation, printf/scanf, variables, constants.</li>
+          <li><strong>Control:</strong> if-else, switch, loops (while, do-while, for), break, continue.</li>
+          <li><strong>Functions:</strong> Declaration, definition, call, recursion, scope.</li>
+          <li><strong>Arrays &amp; Pointers:</strong> 1D/2D arrays, pointer arithmetic, dynamic allocation.</li>
+          <li><strong>Structures &amp; Files:</strong> Structure definition, array of structures, file operations (fopen, fclose, fprintf, fscanf).</li>
+        </ul>
+      </div>
+    </div>
+
+    <a id="cprog-pyq"></a>
+    <div class="content-section">
+      <div class="content-header">
+        <a href="sem1.html" class="back-link">&#8592; Back to Semester I</a>
+        <h2>C Programming &mdash; Past Year Questions</h2>
+      </div>
+      <div class="content-actions">
+        <button class="btn btn-download">&#128466; Download PYQ PDF</button>
+      </div>
+      <div class="content-body">
+        <div class="pyq-box">
+          <strong>Sample PYQs (CSC110):</strong>
+          <ol>
+            <li>What is a pointer? Explain pointer arithmetic with example. Write a program to swap two numbers using pointers.</li>
+            <li>Explain recursion with example. Write a recursive program to find factorial.</li>
+            <li>What is a structure? How is it different from an array? Write a program to store student records using structures.</li>
+            <li>Explain different file opening modes. Write a program to copy one file to another.</li>
+            <li>Write a C program to check whether a number is prime.</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+
+    <a id="dlogic-notes"></a>
+    <div class="content-section">
+      <div class="content-header">
+        <a href="sem1.html" class="back-link">&#8592; Back to Semester I</a>
+        <h2>Digital Logic &mdash; Notes</h2>
+      </div>
+      <div class="content-actions">
+        <button class="btn btn-download">&#128466; Download PDF</button>
+      </div>
+      <div class="content-body">
+        <p><strong>Digital Logic (CSC111)</strong> covers design of digital circuits using logic gates and Boolean algebra.</p>
+        <div class="note-box">
+          <strong>Key Topics:</strong> Number systems and codes, Boolean algebra, logic gates, K-map simplification, combinational circuits, sequential circuits, flip-flops, counters, registers, memory.
+        </div>
+        <h3>Important Concepts</h3>
+        <ul>
+          <li>Number conversions, BCD, Gray code, Excess-3.</li>
+          <li>Boolean theorems, De Morgan's laws, SOP and POS.</li>
+          <li>Half/full adder, half/full subtractor, MUX, DEMUX, decoder.</li>
+          <li>SR, JK, D, T flip-flops; counters; shift registers.</li>
+        </ul>
+      </div>
+    </div>
+
+    <a id="dlogic-pyq"></a>
+    <div class="content-section">
+      <div class="content-header">
+        <a href="sem1.html" class="back-link">&#8592; Back to Semester I</a>
+        <h2>Digital Logic &mdash; Past Year Questions</h2>
+      </div>
+      <div class="content-actions">
+        <button class="btn btn-download">&#128466; Download PYQ PDF</button>
+      </div>
+      <div class="content-body">
+        <div class="pyq-box">
+          <strong>Sample PYQs (CSC111):</strong>
+          <ol>
+            <li>Convert (253.62)<sub>10</sub> into binary, octal, hexadecimal.</li>
+            <li>Simplify F(A,B,C,D) = Σm(0,1,2,5,6,7,8,9,10,14) using K-map.</li>
+            <li>Design a 4-bit binary to Gray code converter.</li>
+            <li>Explain JK flip-flop with truth table and characteristic equation.</li>
+            <li>Design a 3-bit asynchronous up-counter using JK flip-flops.</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+
+    <a id="math1-notes"></a>
+    <div class="content-section">
+      <div class="content-header">
+        <a href="sem1.html" class="back-link">&#8592; Back to Semester I</a>
+        <h2>Mathematics I &mdash; Notes</h2>
+      </div>
+      <div class="content-actions">
+        <button class="btn btn-download">&#128466; Download PDF</button>
+      </div>
+      <div class="content-body">
+        <p><strong>Mathematics I (MTH112)</strong> covers limits, differentiation, integration, matrices, and linear algebra.</p>
+        <div class="note-box">
+          <strong>Key Topics:</strong> Limits and continuity, differentiation, integration, applications of derivatives, matrices and determinants, systems of linear equations, eigenvalues and eigenvectors, sequences and series.
+        </div>
+        <h3>Important Formulas</h3>
+        <ul>
+          <li>d/dx(x<sup>n</sup>) = nx<sup>n-1</sup>; product, quotient, chain rules.</li>
+          <li>Integration: power rule, by parts, substitution, definite integrals.</li>
+          <li>Matrix: addition, multiplication, transpose, inverse, adjoint, determinant.</li>
+          <li>Eigenvalue: det(A - &lambda;I) = 0.</li>
+        </ul>
+      </div>
+    </div>
+
+    <a id="math1-pyq"></a>
+    <div class="content-section">
+      <div class="content-header">
+        <a href="sem1.html" class="back-link">&#8592; Back to Semester I</a>
+        <h2>Mathematics I &mdash; Past Year Questions</h2>
+      </div>
+      <div class="content-actions">
+        <button class="btn btn-download">&#128466; Download PYQ PDF</button>
+      </div>
+      <div class="content-body">
+        <div class="pyq-box">
+          <strong>Sample PYQs (MTH112):</strong>
+          <ol>
+            <li>Find derivative of y = x<sup>2</sup> sin x using product rule.</li>
+            <li>Evaluate &int; x e<sup>x</sup> dx by integration by parts.</li>
+            <li>Solve system of linear equations using matrix inversion.</li>
+            <li>Find eigenvalues and eigenvectors of a 3x3 matrix.</li>
+            <li>Discuss continuity and differentiability of f(x) = |x| at x = 0.</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+
+    <a id="physics-notes"></a>
+    <div class="content-section">
+      <div class="content-header">
+        <a href="sem1.html" class="back-link">&#8592; Back to Semester I</a>
+        <h2>Physics &mdash; Notes</h2>
+      </div>
+      <div class="content-actions">
+        <button class="btn btn-download">&#128466; Download PDF</button>
+      </div>
+      <div class="content-body">
+        <p><strong>Physics (PHY113)</strong> covers mechanics, heat, optics, electricity, and modern physics relevant to computing.</p>
+        <div class="note-box">
+          <strong>Key Topics:</strong> Vectors and motion, laws of motion, work-energy-power, gravitation, rotational motion, heat and thermodynamics, waves, electrostatics, current electricity, magnetism, electromagnetic induction, modern physics.
+        </div>
+        <h3>Important Formulas</h3>
+        <ul>
+          <li>F = ma; W = Fs cos &theta;.</li>
+          <li>V = IR; P = VI = I<sup>2</sup>R = V<sup>2</sup>/R.</li>
+          <li>1/v - 1/u = 1/f (lens); 1/v + 1/u = 1/f (mirror).</li>
+        </ul>
+      </div>
+    </div>
+
+    <a id="physics-pyq"></a>
+    <div class="content-section">
+      <div class="content-header">
+        <a href="sem1.html" class="back-link">&#8592; Back to Semester I</a>
+        <h2>Physics &mdash; Past Year Questions</h2>
+      </div>
+      <div class="content-actions">
+        <button class="btn btn-download">&#128466; Download PYQ PDF</button>
+      </div>
+      <div class="content-body">
+        <div class="pyq-box">
+          <strong>Sample PYQs (PHY113):</strong>
+          <ol>
+            <li>State and explain Newton's laws of motion.</li>
+            <li>Derive expression for acceleration due to gravity and variation with height/depth.</li>
+            <li>What is a PN junction diode? Explain forward and reverse bias.</li>
+            <li>State and explain Kirchhoff's laws with example.</li>
+            <li>Explain photoelectric effect and Einstein's equation.</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <span class="footer-brand">Toya Bsc CSIT</span>
+          <p class="footer-desc">Free BSc CSIT notes and PYQs for Tribhuvan University students.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Semester I</h4>
+          <ul>
+            <li><a href="#it-notes">Intro to IT</a></li>
+            <li><a href="#cprog-notes">C Programming</a></li>
+            <li><a href="#dlogic-notes">Digital Logic</a></li>
+            <li><a href="#math1-notes">Mathematics I</a></li>
+            <li><a href="#physics-notes">Physics</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>More</h4>
+          <ul>
+            <li><a href="index.html">Back to Home</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="copyright">
+        &copy; <span id="year"></span> Toya Bsc CSIT. Educational purpose only.
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
